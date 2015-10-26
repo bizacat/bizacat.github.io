@@ -1,0 +1,17 @@
+{
+  "name": "bizacat",
+  "version": "0.0.0",
+  "homepage": "https://bizacat.github.io",
+  "authors": [
+    "<tina.bizaca@gmail.com>"
+  ],
+  "main": "main-bower",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

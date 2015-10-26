@@ -1,0 +1,39 @@
+.hero {
+  color: #ffffff;
+  min-height: 100vh;
+  padding: $spacing-unit $spacing-unit * 4 $spacing-unit * 4;
+  background: #0e1823;
+}
+
+.hero-area {
+  text-align: center;
+  a {
+    &:hover {
+      color: yellow;
+      text-decoration: none;
+    }
+  }
+  .page-nav span {
+    font-size: 1.2em;
+  }
+  [class^="icon-"] {
+    font-family: 'icomoon';
+    font-size: 16em !important;
+  }
+}
+
+span.icon-logo-1:hover {
+  @extend .icon-logo-2;
+}
+
+span.icon-ux-1:hover {
+  @extend .icon-ux-2;
+}
+
+span.icon-photos-1:hover {
+  @extend .icon-photos-2;
+}
+
+span.icon-skills-1:hover {
+  @extend .icon-skills-2;
+}

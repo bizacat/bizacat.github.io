@@ -6,11 +6,18 @@
 .home {
 }
 
-.hero {
-  color: #ffffff;
-  min-height: 100vh;
-  padding: $spacing-unit * 4;
+#topNav {
+  margin-bottom: $spacing-unit;
+  color: $brand-color;
+  font-size: 1.5em;
+  a:hover {
+    text-decoration: underline;
+  }
+  .site-title {
+    margin-right: 1em;
+  }
 }
 
 .main-content {
+
 }
