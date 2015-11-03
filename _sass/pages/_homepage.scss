@@ -1,12 +1,6 @@
-.hero {
-  color: #ffffff;
-  min-height: 100vh;
-  padding: $spacing-unit $spacing-unit * 4 $spacing-unit * 4;
-  background: #0e1823;
-}
-
-.hero-area {
+.home .hero {
   text-align: center;
+  padding: $spacing-unit $spacing-unit * 4;
   a {
     &:hover {
       color: yellow;
@@ -37,3 +31,23 @@ span.icon-photos-1:hover {
 span.icon-skills-1:hover {
   @extend .icon-skills-2;
 }
+
+.headline {
+  padding: $spacing-unit * 4 $spacing-unit $spacing-unit;
+  color: $brand-color;
+  a {
+    color: lighten($brand-color, 30%);
+  }
+}
+
+a.page-anchor {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+//#myProcess {
+//  text-align: center;
+//  li {
+//    text-align: left;
+//  }
+//}

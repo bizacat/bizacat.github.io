@@ -60,4 +60,15 @@
   <!-- Live reload support for grunt-contrib-watch -->
   <script src="http://localhost:35729/livereload.js"></script>
 
+  <!-- Chocolatl Lightbox -->
+  <script type="text/javascript" src="/vendor/chocolat-master/dist/js/jquery.chocolat.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.chocolat-parent').Chocolat({
+        imageSize: 'contain'
+      });
+    });
+  </script>
+
 </footer>

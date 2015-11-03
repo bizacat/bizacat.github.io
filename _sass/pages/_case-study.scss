@@ -1,0 +1,19 @@
+.case-study {
+  .hero {
+    color: $brand-color;
+    text-align: center;
+  }
+  .content-wrapper {
+    h2 {
+      margin-bottom: 0;
+    }
+    h4 {
+      color: #888888;
+    }
+    img {
+      margin: $spacing-unit auto;
+      display: block;
+      text-align: center;
+    }
+  }
+}

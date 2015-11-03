@@ -1,0 +1,39 @@
+.chocolat-wrapper {
+
+  .chocolat-content {
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .chocolat-bottom {
+    text-align: center !important;
+    background: rgba(0, 0, 0, 0.8) !important;
+    height: auto !important;
+    line-height: 1.5 !important;
+  }
+
+  .chocolat-description {
+    font-size: 1.5em;
+    margin-left: 2em auto;
+    padding: 1em 6em;
+    float: none !important;
+  }
+
+  .chocolat-fullscreen {
+    position: absolute;
+  }
+  
+  .chocolat-pagination {
+    display: none !important;
+  }
+
+}
+
+.chocolat-parent {
+  text-align: center;
+}
+
+.chocolat-image img {
+  border: 6px solid rgba($brand-color, 0.8);
+  margin: 0.5em 1em;
+  display: inline-block;
+}
