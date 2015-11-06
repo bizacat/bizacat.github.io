@@ -21,8 +21,14 @@
   }
 }
 
-.content-wrapper {
+.hero, .content-wrapper {
   padding: $spacing-unit 5em;
+  @include media-query($on-palm) {
+    padding: $spacing-unit 3em;
+  }
+}
+
+.content-wrapper {
   h2, h3 {
     margin: 0 !important;
   }
@@ -52,3 +58,4 @@ img + .caption {
   font-style: italic;
   font-size: 0.85em;
 }
+
