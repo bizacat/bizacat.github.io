@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?vabthg');
-	src:url('../fonts/icomoon.eot?vabthg#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon.ttf?vabthg') format('truetype'),
-		url('../fonts/icomoon.woff?vabthg') format('woff'),
-		url('../fonts/icomoon.svg?vabthg#icomoon') format('svg');
+	src:url('../../fonts/icomoon.eot?vabthg');
+	src:url('../../fonts/icomoon.eot?vabthg#iefix') format('embedded-opentype'),
+		url('../../fonts/icomoon.ttf?vabthg') format('truetype'),
+		url('../../fonts/icomoon.woff?vabthg') format('woff'),
+		url('../../fonts/icomoon.svg?vabthg#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -24,31 +24,34 @@
 }
 
 
-.icon-tb-logo:before {
+.icon-me-1:before {
   content: "\e908";
 }
+.icon-me-2:before {
+  content: "\e909";
+}
 .icon-logo-1:before {
-	content: "\e900";
+  content: "\e900";
 }
 .icon-logo-2:before {
-	content: "\e901";
+  content: "\e901";
 }
 .icon-photos-1:before {
-	content: "\e902";
+  content: "\e902";
 }
 .icon-photos-2:before {
-	content: "\e903";
+  content: "\e903";
 }
 .icon-skills-1:before {
-	content: "\e904";
+  content: "\e904";
 }
 .icon-skills-2:before {
-	content: "\e905";
+  content: "\e905";
 }
 .icon-ux-1:before {
-	content: "\e906";
+  content: "\e906";
 }
 .icon-ux-2:before {
-	content: "\e907";
+  content: "\e907";
 }
 

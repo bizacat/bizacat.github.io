@@ -45,15 +45,19 @@ $on-laptop:        800px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "pages/homepage",
+
+// Vendor
+@import "vendor/chocolat-overrides";
+
+// Utilities
+@import "utilities/resets",
+        "utilities/fonts";
+
+// Components
+@import "components/layout";
+@import "components/header";
+
+// Pages
+@import "pages/homepage",
         "pages/default",
-        "pages/case-study",
-        "utilities/fonts",
-        "vendor/chocolat-overrides",
-        "syntax-highlighting",
-        "../vendor/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid"
-        //"../vendor/bower_components/bootstrap-sass/assets/stylesheets/bootstrap"
-;
+        "pages/case-study";

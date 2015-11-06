@@ -1,7 +1,7 @@
-@import "vendor/bootstrap/mixins";
-@import "vendor/bootstrap/variables";
-@import "vendor/bootstrap/mixins/grid";
-@import "vendor/bootstrap/grid";
+@import "../vendor/bootstrap/mixins";
+@import "../vendor/bootstrap/variables";
+@import "../vendor/bootstrap/mixins/grid";
+@import "../vendor/bootstrap/grid";
 
 .hero {
   color: #ffffff;
@@ -22,9 +22,13 @@
 }
 
 .content-wrapper {
-  padding: $spacing-unit 20%;
+  padding: $spacing-unit 3em;
   h2, h3 {
     margin: 0 !important;
+  }
+  section {
+    max-width: 50em;
+    margin: 0 auto;
   }
 }
 
@@ -39,4 +43,12 @@
   &, strong {
     color: #ffffff;
   }
+}
+
+img + .caption {
+  text-align: center;
+  display: block;
+  margin: -1em 0 2em;
+  font-style: italic;
+  font-size: 0.85em;
 }
