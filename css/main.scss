@@ -9,13 +9,14 @@
 $base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 2;
 
 $spacing-unit:     30px;
 
 $text-color: #232323;
 $background-color: #fdfdfd;
-$brand-color:      #184c97;
+$brand-color:      #1f63c5;
+$dark-brand-color: #0e1823;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -54,8 +55,10 @@ $on-laptop:        800px;
         "utilities/fonts";
 
 // Components
-@import "components/layout";
-@import "components/header";
+@import "components/layout",
+        "components/header",
+        "components/footer",
+        "components/buttons";
 
 // Pages
 @import "pages/homepage",

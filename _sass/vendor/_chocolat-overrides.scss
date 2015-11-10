@@ -36,8 +36,14 @@
   text-align: center;
 }
 
-.chocolat-image img {
-  border: 6px solid rgba($brand-color, 0.8);
-  margin: 0.5em 1em;
-  display: inline-block;
+.chocolat-image {
+  text-decoration: none !important;
+  img {
+    border: 6px solid transparent;
+    margin: 0.5em;
+    display: inline-block;
+    &:hover {
+      border-color: $brand-color;
+    }
+  }
 }

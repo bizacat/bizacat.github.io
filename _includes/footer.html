@@ -1,18 +1,15 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <div class="footer-wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
+    <div class="row">
+      <div class="col-md-4">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
-      <div class="footer-col  footer-col-2">
+      <div class="col-md-4">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -23,7 +20,7 @@
                 </svg> -->
               </span>
 
-              <span class="username">{{ site.github_username }}</span>
+              <span class="username">github: {{ site.github_username }}</span>
             </a>
           </li>
           {% endif %}
@@ -38,37 +35,27 @@
                 </svg> -->
               </span>
 
-              <span class="username">{{ site.twitter_username }}</span>
+              <span class="username">twitter: {{ site.twitter_username }}</span>
             </a>
           </li>
           {% endif %}
         </ul>
       </div>
 
-      <div class="footer-col  footer-col-3">
+      <div class="col-md-4">
         <p class="text">{{ site.description }}</p>
       </div>
     </div>
 
   </div>
-    
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="./vendor/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 
-  <!-- Live reload support for grunt-contrib-watch -->
-  <script src="http://localhost:35729/livereload.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../vendor/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 
   <!-- Chocolatl Lightbox -->
-  <script type="text/javascript" src="./vendor/Chocolat-master/dist/js/jquery.chocolat.js"></script>
+  <script type="text/javascript" src="../vendor/Chocolat-master/dist/js/jquery.chocolat.js"></script>
 
-  <script>
-    $(document).ready(function(){
-      $('.chocolat-parent').Chocolat({
-        imageSize: 'contain'
-      });
-    });
-  </script>
+  <!-- My js -->
+  <script src="/js/helpers.js"></script>
 
 </footer>

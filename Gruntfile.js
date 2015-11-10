@@ -27,7 +27,8 @@ module.exports = function (grunt) {
           '_pages/*.html',
           '_config.yml',
           'index.html',
-          '_sass/*.scss'
+          '_sass/*.scss',
+          'js/*.js'
       ],
       tasks: ['shell:jekyllBuild', 'shell:jekyllServe'],
       options: {

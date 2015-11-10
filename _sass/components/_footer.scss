@@ -1,0 +1,16 @@
+.site-footer {
+  @include hero-colors;
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+  }
+  margin-top: 2em;
+  padding: $spacing-unit 0;
+  //position: absolute;
+  //bottom: 0;
+  //width: 100%;
+  @include media-query($on-palm) {
+    //position: relative;
+    text-align: right;
+  }
+}

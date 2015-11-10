@@ -15,6 +15,13 @@
   }
 }
 
+.home {
+  .chocolat-parent {
+    padding: $spacing-unit;
+    background-color: #f7f7f7;
+  }
+}
+
 span.icon-logo-1:hover {
   @extend .icon-logo-2;
 }

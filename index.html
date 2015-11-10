@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 <!DOCTYPE html>
-<div class="hero">
+<section class="hero">
     <div class="row" id="topNav">
         <div class="col-md-1">
             <a href="/"><span class="site-title"><img src="/img/tb-logo.png" width="60"></span></a>
@@ -14,7 +14,7 @@ layout: homepage
     </div>
     <div class="row page-nav">
         <div class="col-lg-3">
-            <a href="ux" title="UX">
+            <a href="case-study" title="Case Studies">
                 <span class="icon-ux-1"></span>
                 <h3>UX Case Studies</h3>
             </a>
@@ -45,9 +45,9 @@ layout: homepage
             I am passionate about good experiences.
         </h4>
     </div>
-</div>
-<div class="content-wrapper">
-    <section>
+</section>
+<section>
+    <div class="content-wrapper">
         <a class="page-anchor" name="visual-communication">
             <h1>I'm a visual communicator</h1>
         </a>
@@ -59,36 +59,40 @@ layout: homepage
         <p>
             My goal is to always grasp the overall idea or problem and transfer the knowledge to others easily so a conversation can be encouraged:
         </p>
-        <div class="chocolat-parent" data-chocolat-title="">
-            <a class="chocolat-image" href="/img/data-views.png" title="A quick and dirty supportive chart for an executive sales meeting to represent
-            the load of raw data received by mobi and the resulting views output by mobi's analytics platform, along with their real-world industry uses">
-                <img width="200" src="/img/data-views.png">
-            </a>
-            <a class="chocolat-image" href="/img/travelling-salesman.jpg" title="Another diagram done for mobi's executives to help detail the complexity
-            of the 'Travelling Salesman Problem' and how mobi's software drastically simplifies the solution.">
-                <img width="200" src="/img/travelling-salesman.jpg">
-            </a>
-            <a class="chocolat-image" href="/img/cd-higher-ed-infograph.jpg" title="A piece of an infographic I did for CreditDonkey.com regarding the cost
-            of higher education today (done in 2011). Two graphs with greatly different ranges of the Y-axis yet representing the same unit have their transition
-            from one of smaller proportions to the greater detailed in between to show their true relationship.">
-                <img width="200" src="/img/cd-higher-ed-infograph.jpg">
-            </a>
-            <a class="chocolat-image" href="/img/ppt2_Appointment%201.png" title="A diagram done to show the complexity of what is happening in the
-            background when a customer of mobi uses mobi API to efficiently produce the best options to suggest a customer for appointment scheduling, considering
-            available resources and existing appointments and other details.">
-                <img width="200" src="/img/ppt2_Appointment%201.png">
-            </a>
-            <a class="chocolat-image" href="/img/ppt2_Appointment%202.png" title="A continuation of the last diagram showing what happens after an appointment time
-            is chosen and is sent to back to the OP to be scheduled.">
-                <img width="200" src="/img/ppt2_Appointment%202.png">
-            </a>
-            <a class="chocolat-image" href="/img/ppt2_Appointment%203.png" title="A third diagram representing a different product and process and detailing the steps
-            taken by the OP and GIS to determine the best appointments.">
-                <img width="200" src="/img/ppt2_Appointment%203.png">
-            </a>
-        </div>
-    </section>
-    <section id="myProcess">
+    </div>
+</section>
+<section>
+    <div class="chocolat-parent" data-chocolat-title="">
+        <a class="chocolat-image" href="/img/data-views.png" title="A quick and dirty supportive chart for an executive sales meeting to represent
+        the load of raw data received by mobi and the resulting views output by mobi's analytics platform, along with their real-world industry uses">
+            <img width="180" src="/img/data-views.png">
+        </a>
+        <a class="chocolat-image" href="/img/travelling-salesman.jpg" title="Another diagram done for mobi's executives to help detail the complexity
+        of the 'Travelling Salesman Problem' and how mobi's software drastically simplifies the solution.">
+            <img width="180" src="/img/travelling-salesman.jpg">
+        </a>
+        <a class="chocolat-image" href="/img/cd-higher-ed-infograph.jpg" title="A piece of an infographic I did for CreditDonkey.com regarding the cost
+        of higher education today (done in 2011). Two graphs with greatly different ranges of the Y-axis yet representing the same unit have their transition
+        from one of smaller proportions to the greater detailed in between to show their true relationship.">
+            <img width="180" src="/img/cd-higher-ed-infograph.jpg">
+        </a>
+        <a class="chocolat-image" href="/img/ppt2_Appointment%201.png" title="A diagram done to show the complexity of what is happening in the
+        background when a customer of mobi uses mobi API to efficiently produce the best options to suggest a customer for appointment scheduling, considering
+        available resources and existing appointments and other details.">
+            <img width="180" src="/img/ppt2_Appointment%201.png">
+        </a>
+        <a class="chocolat-image" href="/img/ppt2_Appointment%202.png" title="A continuation of the last diagram showing what happens after an appointment time
+        is chosen and is sent to back to the OP to be scheduled.">
+            <img width="180" src="/img/ppt2_Appointment%202.png">
+        </a>
+        <a class="chocolat-image" href="/img/ppt2_Appointment%203.png" title="A third diagram representing a different product and process and detailing the steps
+        taken by the OP and GIS to determine the best appointments.">
+            <img width="180" src="/img/ppt2_Appointment%203.png">
+        </a>
+    </div>
+</section>
+<section class="brand">
+    <div class="content-wrapper">
         <h1>My process</h1>
         <h2>1. Problem</h2>
         <h2>2. Research</h2>
@@ -117,14 +121,23 @@ layout: homepage
             <li>Use HTML, CSS/SCSS, templating systems such as Foundation or Bootstrap, JS, jQuery to get the job done</li>
             <li>Review other work done across other products if necessary to ensure seamless and harmonized experiences and designs</li>
         </ul>
-    </section>
-</div>
-<div class="full-width content-wrapper">
-    <section>
-        <h2>Case studies</h2>
-        <h4>Read about how I designed:</h4>
+    </div>
+</section>
+<section>
+    <div class="content-wrapper">
+        <h1>Skills</h1>
+        <h2>Read about how I designed:</h2>
         <p>
             <a href="/case-study/route-planning">A route planning application</a>
         </p>
-    </section>
-</div>
+    </div>
+</section>
+
+
+<script>
+    $(document).ready(function(){
+        $('.chocolat-parent').Chocolat({
+            imageSize: 'contain'
+        });
+    });
+</script>
