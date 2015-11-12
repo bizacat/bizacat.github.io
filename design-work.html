@@ -5,7 +5,11 @@ permalink: /design-work/
 ---
 <section id="tagCloud">
     <div class="content-wrapper">
-
+        <ul id="tagCloudUl">
+            <li class="tag show">
+                <a id="showAll">Show All</a>
+            </li>
+        </ul>
     </div>
 </section>
 <section class="design-work web-design branding">
@@ -17,7 +21,7 @@ permalink: /design-work/
             <a class="chocolat-image" href="/img/trailroots-running.png" title="foo"></a>
         </div>
         <div class="col-md-8">
-            <h2>Trail Roots redesign</h2>
+            <h2>Trail Roots website redesign</h2>
             <h4>A trail running club gets a new website</h4>
             <span class="tag">web design</span><span class="tag">branding</span>
             <p>
@@ -52,18 +56,46 @@ permalink: /design-work/
 
 <hr class="divider">
 
-<section class="design-work">
+<section class="design-work branding logo-design">
     <div class="content-wrapper row">
-        <div class="col-md-4" id="creditdonkey">
-            <a class="chocolat-image" href="/img/cd-higher-ed-infograph.jpg" title="foo">
-                <img src="/img/cd-higher-ed-infograph.jpg" width="100%" class="main-image">
+        <div class="col-md-4" id="mobi-logo">
+            <a class="chocolat-image" href="/img/mobi-logo-iterations-01.png" title="foo">
+                <img src="/img/mobi-logo-iterations-01.png" width="100%" class="main-image">
             </a>
-            <a class="chocolat-image" href="/img/cd-higher-ed-infograph.jpg"></a>
+            <a class="chocolat-image" href="/img/mobi-logo-iterations-01.png"></a>
+            <a class="chocolat-image" href="/img/mobi-logo-iterations-02.png"></a>
+            <a class="chocolat-image" href="/img/mobi-logo-iterations-03.png"></a>
+            <a class="chocolat-image" href="/img/mobi-logo-iterations-04.png"></a>
         </div>
         <div class="col-md-8">
-            <h2>Credit Donkey infographics</h2>
-            <h4>Storytelling with infovis</h4>
-            <span class="tag">information design</span><span class="tag">graphic design</span><span class="tag">freelancing</span>
+            <h2>mobi Logo Design</h2>
+            <h4>Pointserve goes through a rebranding</h4>
+            <span class="tag">branding</span><span class="tag">logo design</span>
+            <p>
+                Intending to serve small to medium sized delivery and field service businesses, mobi decided to create a new web-app to tackle the challenge
+                of efficient route planning.
+            </p>
+        </div>
+    </div>
+</section>
+
+<hr class="divider">
+
+<section class="design-work branding logo-design">
+    <div class="content-wrapper row">
+        <div class="col-md-4" id="mobi-logo">
+            <a class="chocolat-image" href="/img/mobi-logo-iterations-01.png" title="foo">
+                <img src="/img/mobi-logo-iterations-01.png" width="100%" class="main-image">
+            </a>
+            <a class="chocolat-image" href="/img/mobi-logo-iterations-01.png"></a>
+            <a class="chocolat-image" href="/img/mobi-logo-iterations-02.png"></a>
+            <a class="chocolat-image" href="/img/mobi-logo-iterations-03.png"></a>
+            <a class="chocolat-image" href="/img/mobi-logo-iterations-04.png"></a>
+        </div>
+        <div class="col-md-8">
+            <h2>Architectural Design Studios</h2>
+            <h4>My work between semesters 5 and 10</h4>
+            <span class="tag">architecture</span><span class="tag">graphic design</span>
             <p>
                 Intending to serve small to medium sized delivery and field service businesses, mobi decided to create a new web-app to tackle the challenge
                 of efficient route planning.
@@ -83,6 +115,13 @@ permalink: /design-work/
     });
     $(function(){
         $('#creditdonkey').Chocolat({
+            loop            : true,
+            imageSize       : 'contain',
+            overlayOpacity  : 0.9
+        });
+    });
+    $(function(){
+        $('#mobi-logo').Chocolat({
             loop            : true,
             imageSize       : 'contain',
             overlayOpacity  : 0.9

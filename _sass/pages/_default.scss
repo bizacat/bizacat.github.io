@@ -17,6 +17,13 @@ section .main-image {
   margin-top: $spacing-unit * 2;
 }
 
+#tagCloudUl {
+  list-style-type: none;
+  li {
+    display: inline-block;
+  }
+}
+
 .tag {
   background-color: rgba($brand-color, 0.6);
   color: #ffffff;
@@ -27,5 +34,8 @@ section .main-image {
   font-size: $base-font-size * 0.875;
   &:hover {
     background-color: rgba($brand-color, 0.7);
+  }
+  &.selected {
+    background-color: $brand-color;
   }
 }
