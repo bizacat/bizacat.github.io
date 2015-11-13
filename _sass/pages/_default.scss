@@ -17,25 +17,39 @@ section .main-image {
   margin-top: $spacing-unit * 2;
 }
 
-#tagCloudUl {
-  list-style-type: none;
-  li {
-    display: inline-block;
+.tag-cloud {
+  background-color: $brand-color;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    li {
+      display: inline-block;
+    }
+  }
+  .tag {
+    background-color: rgba(255, 255, 255, 0.075);
+    &.selected, &:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+      cursor: pointer;
+      text-decoration: none;
+      color: #ffffff;
+    }
   }
 }
 
 .tag {
-  background-color: rgba($brand-color, 0.6);
+  background-color: rgba($brand-color, 0.4);
   color: #ffffff;
   display: inline-block;
   padding: $spacing-unit * 0.1 $spacing-unit * 0.3;
-  margin-right: $spacing-unit * 0.25;
-  margin-bottom: $spacing-unit;
+  margin: $spacing-unit * 0.2 $spacing-unit * 0.1;
   font-size: $base-font-size * 0.875;
-  &:hover {
-    background-color: rgba($brand-color, 0.7);
-  }
-  &.selected {
-    background-color: $brand-color;
-  }
+}
+
+section.selected .tag {
+  background-color: $brand-color;
+}
+
+.design-work p {
+  font-size: $base-font-size * 0.875;
 }
