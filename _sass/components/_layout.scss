@@ -26,9 +26,9 @@
 }
 
 .hero, .content-wrapper, .footer-wrapper {
-  padding: $spacing-unit 4em;
+  padding: $spacing-unit $spacing-unit * 3;
   @include media-query($on-palm) {
-    padding: $spacing-unit 3em;
+    padding: $spacing-unit;
   }
 }
 
