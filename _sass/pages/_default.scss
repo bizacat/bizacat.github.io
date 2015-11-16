@@ -46,7 +46,7 @@ section .main-image {
   font-size: $base-font-size * 0.875;
 }
 
-section.selected .tag {
+.filtered {
   background-color: $brand-color;
 }
 

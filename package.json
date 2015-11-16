@@ -4,6 +4,7 @@
   "description": "My Portfolio",
   "main": "Gruntfile.js",
   "dependencies": {
+    "@staaky/strip": "^1.6.2",
     "grunt": "^0.4.5"
   },
   "devDependencies": {
