@@ -1,0 +1,38 @@
+---
+layout: default
+title: #photoarun
+permalink: /photoarun/
+---
+
+<div id='calendar'>
+    <div class="instagram search tag"></div>
+</div>
+
+<script>
+    $(document).ready(function() {
+
+        console.log('page is now ready, initialize the calendar...');
+
+        $('#calendar').fullCalendar({
+            // put your options and callbacks here
+        })
+
+    });
+
+    var clientId = '9fcd97533de7404388454e3d65c663d5';
+    $(".instagram.tag").instagram({
+        hash: 'sport',
+        show: 10,
+        clientId: clientId
+    });
+
+    var accessToken = '5d2a430f95db4cfc9c8778daa6f86a7e';
+    var userID = '9fcd97533de7404388454e3d65c663d5';
+    $(".instagram.search").instagram({
+            userID: userID,
+            show: 5,
+            accessToken: accessToken
+            });
+
+
+</script>
