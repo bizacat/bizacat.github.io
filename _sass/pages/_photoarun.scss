@@ -10,14 +10,6 @@ table {
 .fc-content-skeleton, .fc-bg {
   td {
     overflow: hidden;
-    &:hover {
-      img, .date-number.visible {
-        visibility: hidden;
-        @include media-query($on-palm) {
-          visibility: visible;
-        }
-      }
-    }
   }
 }
 

@@ -80,12 +80,20 @@ $(document).ready(function(){
                     // Get the date of each #photoarun
                     var timeStamp = new Date(parseInt(data.data[x].created_time) * 1000);
                     timeStamp = $.format.date(timeStamp, 'yyyy-MM-dd');
+                    var newTimeStamp = new Date(parseInt(data.data[x].created_time) * 1000);
+                    newTimeStamp = $.format.date(newTimeStamp, 'MMMM d');
 
                     if (dataAttr[y] === timeStamp) {
                         $('thead td[data-date="' + dataAttr[y] + '"]').append('' +
-                            '<a href="' + data.data[x].link + '" target="_blank">' + '<img src="' + data.data[x].images.low_resolution.url + '"></a>');
+                            '<a data-strip-group="photoarun" class="strip" href="'
+                            + data.data[x].images.standard_resolution.url
+                            + '" data-strip-caption="'
+                            + newTimeStamp + ': '
+                            + data.data[x].caption.text
+                            + '"><img src="'
+                            + data.data[x].images.low_resolution.url
+                            + '"></a>');
                         $('thead td[data-date="' + dataAttr[y] + '"] .date-number').addClass('visible');
-                        $('.fc-bg td[data-date="' + dataAttr[y] + '"]').append('<span class="insta-description">' + data.data[x].caption.text + '</span>');
                     }
                 }
             }
