@@ -84,6 +84,7 @@ $(document).ready(function(){
                     if (dataAttr[y] === timeStamp) {
                         $('thead td[data-date="' + dataAttr[y] + '"]').append('<img src="' + data.data[x].images.low_resolution.url + '">');
                         $('thead td[data-date="' + dataAttr[y] + '"] .date-number').addClass('visible');
+                        $('.fc-bg td[data-date="' + dataAttr[y] + '"]').append('<span class="insta-description">' + data.data[x].caption.text + '</span>');
                     }
                 }
             }

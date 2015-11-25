@@ -7,15 +7,26 @@ table {
   box-sizing: border-box !important;
 }
 
+.fc-content-skeleton, .fc-bg {
+  td {
+    overflow: hidden;
+    &:hover {
+      img, .date-number {
+        display: none;
+      }
+    }
+  }
+}
+
 .fc-content-skeleton td {
   position: relative;
   padding: 0 !important;
-  font-size: 18px;
+  font-size: 2em;
   img {
-    width: 100%;
+    width: 99%;
     position: relative;
     z-index: -1;
-    margin: 2px 0;
+    margin: 1% auto;
   }
 }
 
@@ -39,4 +50,14 @@ table {
     color: #ffffff;
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
   }
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+
+.insta-description {
+  font-size: 0.75em;
+  line-height: 1.5;
+  padding: 3% 6%;
+  display: block;
 }
