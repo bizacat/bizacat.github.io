@@ -13,6 +13,9 @@ table {
     &:hover {
       img, .date-number.visible {
         visibility: hidden;
+        @include media-query($on-palm) {
+          visibility: visible;
+        }
       }
     }
   }
@@ -22,6 +25,12 @@ table {
   position: relative;
   padding: 0 !important;
   font-size: 2em;
+  a {
+    display: block;
+    &:hover img {
+      opacity: 0.5;
+    }
+  }
   img {
     width: 99%;
     position: relative;
@@ -60,4 +69,7 @@ table {
   line-height: 1.5;
   padding: 3% 6%;
   display: block;
+  @include media-query($on-palm) {
+    display: none;
+  }
 }

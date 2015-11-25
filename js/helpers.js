@@ -82,7 +82,8 @@ $(document).ready(function(){
                     timeStamp = $.format.date(timeStamp, 'yyyy-MM-dd');
 
                     if (dataAttr[y] === timeStamp) {
-                        $('thead td[data-date="' + dataAttr[y] + '"]').append('<img src="' + data.data[x].images.low_resolution.url + '">');
+                        $('thead td[data-date="' + dataAttr[y] + '"]').append('' +
+                            '<a href="' + data.data[x].link + '" target="_blank">' + '<img src="' + data.data[x].images.low_resolution.url + '"></a>');
                         $('thead td[data-date="' + dataAttr[y] + '"] .date-number').addClass('visible');
                         $('.fc-bg td[data-date="' + dataAttr[y] + '"]').append('<span class="insta-description">' + data.data[x].caption.text + '</span>');
                     }
