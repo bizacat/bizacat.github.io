@@ -11,8 +11,8 @@ table {
   td {
     overflow: hidden;
     &:hover {
-      img, .date-number {
-        display: none;
+      img, .date-number.visible {
+        visibility: hidden;
       }
     }
   }
