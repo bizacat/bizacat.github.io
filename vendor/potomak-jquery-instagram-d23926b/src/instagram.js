@@ -1,11 +1,6 @@
-/*
- * jquery-instagram
+/*! jQuery Instagram - v0.3.1 - 2014-06-19
  * http://potomak.github.com/jquery-instagram
- *
- * Copyright (c) 2013 Giovanni Cappellotto
- * Licensed under the MIT license.
- */
-
+ * Copyright (c) 2014 Giovanni Cappellotto; Licensed MIT */
 (function($) {
 
   function composeRequest(options) {
@@ -46,7 +41,7 @@
     else {
       url += '/media/popular';
     }
-    
+
     return {url: url, data: data};
   }
 
@@ -65,7 +60,7 @@
     });
 
     this.trigger('willLoadInstagram', options);
-    
+
     return this;
   };
 

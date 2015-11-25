@@ -4,10 +4,7 @@ title: #photoarun
 permalink: /photoarun/
 ---
 
-<div id='calendar'>
-    <div class="instagram search tag"></div>
-</div>
-
+==
 <script>
     $(document).ready(function() {
 
@@ -15,24 +12,27 @@ permalink: /photoarun/
 
         $('#calendar').fullCalendar({
             // put your options and callbacks here
-        })
-
+        });
     });
 
-    var clientId = '9fcd97533de7404388454e3d65c663d5';
-    $(".instagram.tag").instagram({
-        hash: 'sport',
-        show: 10,
-        clientId: clientId
+</script>
+
+<div id="calendar">
+    <div class="instagram"></div>
+</div>
+
+
+<script>
+    jQuery(function($) {
+        $('.instagram').on('willLoadInstagram', function(event, options) {
+            console.log(options);
+        });
+        $('.instagram').on('didLoadInstagram', function(event, response) {
+            console.log(response);
+        });
+        $('.instagram').instagram({
+            hash: 'love',
+            clientId: 'YOUR-CLIENT-ID-HERE'
+        });
     });
-
-    var accessToken = '5d2a430f95db4cfc9c8778daa6f86a7e';
-    var userID = '9fcd97533de7404388454e3d65c663d5';
-    $(".instagram.search").instagram({
-            userID: userID,
-            show: 5,
-            accessToken: accessToken
-            });
-
-
 </script>
