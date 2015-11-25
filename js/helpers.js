@@ -44,3 +44,63 @@ for (i=0; i < tagList.length; i++) {
         }
     });
 }
+
+
+// Instagram API
+
+var accessToken = '1467055893.9fcd975.516d1778069d4706812a4be9cf8cb594';
+var clientId = '9fcd97533de7404388454e3d65c663d5';
+var userId = '1467055893';
+var url = 'https://api.instagram.com/v1/tags/photoarun/media/recent?access_token=' + accessToken;
+
+$(document).ready(function(){
+
+    $.ajax({
+        url: url,
+        dataType: 'jsonp',
+        type: 'GET',
+        data: {
+            clientId: clientId
+        },
+        success: function (data) {
+            console.log(data);
+
+            // Get an array of all the dates on the calendar
+            var calendarDay = $('thead td[data-date]');
+            var dataAttr = $.map(calendarDay, function (element) {
+                return $(element).attr('data-date');
+            });
+
+            // Loop through all of the #photoarun photos available
+            for (x in data.data) {
+
+                // Loop through the calendar date array
+                for (y in dataAttr) {
+
+                    // Get the date of each #photoarun
+                    var timeStamp = new Date(parseInt(data.data[x].created_time) * 1000);
+                    timeStamp = $.format.date(timeStamp, 'yyyy-MM-dd');
+
+                    if (dataAttr[y] === timeStamp) {
+                        $('thead td[data-date="' + dataAttr[y] + '"]').append('<img src="' + data.data[x].images.low_resolution.url + '">');
+                        $('thead td[data-date="' + dataAttr[y] + '"] .date-number').addClass('visible');
+                    }
+                }
+            }
+        },
+        error: function (data) {
+            console.log(data);
+        }
+    });
+});
+
+
+$('#calendar').fullCalendar({
+
+    views: {
+        month: { // name of view
+            titleFormat: ''
+            // other view-specific options here
+        }
+    }
+});

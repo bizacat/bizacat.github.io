@@ -48,7 +48,8 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 
 // Vendor
-@import "vendor/chocolat-overrides";
+@import "vendor/chocolat-overrides",
+        "../bower_components/fullcalendar/dist/fullcalendar.min";
 
 // Utilities
 @import "utilities/resets",
@@ -63,4 +64,5 @@ $on-laptop:        800px;
 // Pages
 @import "pages/homepage",
         "pages/default",
-        "pages/case-study";
+        "pages/case-study",
+        "pages/photoarun";

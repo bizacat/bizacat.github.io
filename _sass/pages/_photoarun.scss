@@ -1,0 +1,42 @@
+table {
+  border-spacing: 0px !important;
+}
+
+[class^="fc-"] {
+  border: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.fc-content-skeleton td {
+  position: relative;
+  padding: 0 !important;
+  font-size: 18px;
+  img {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    margin: 2px 0;
+  }
+}
+
+.fc-row.fc-week.fc-widget-content {
+  height: auto !important;
+}
+
+.fc-basic-view td.fc-week-number span, .fc-basic-view td.fc-day-number, .fc-content-skeleton, .fc-bg, .fc-basic-view .fc-day-number, .fc-basic-view .fc-week-number {
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+.date-number {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  &.visible {
+    color: #ffffff;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+  }
+}

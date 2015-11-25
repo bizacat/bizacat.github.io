@@ -10534,9 +10534,10 @@ var BasicView = View.extend({
 		classes.unshift('fc-day-number');
 
 		return '' +
-			'<td class="' + classes.join(' ') + '" data-date="' + date.format() + '">' +
+			'<td class="' + classes.join(' ') + '" data-date="' + date.format() + '"><span class="date-number">' +
+				// Tina did this (added span)
 				date.date() +
-			'</td>';
+			'</span></td>';
 	},
 
 

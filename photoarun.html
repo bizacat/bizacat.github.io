@@ -17,23 +17,6 @@ permalink: /photoarun/
 
 </script>
 
-<div id="calendar">
-    <div class="instagram"></div>
-</div>
+<div id="calendar"></div>
 
-
-<script>
-    jQuery(function($) {
-        $('.instagram').on('willLoadInstagram', function(event, options) {
-            console.log(options);
-        });
-        $('.instagram').on('didLoadInstagram', function(event, response) {
-            console.log(response);
-        });
-        $('.instagram').instagram({
-            hash: 'love',
-            clientId: '9fcd97533de7404388454e3d65c663d5',
-            accessToken: '1467055893.9fcd975.516d1778069d4706812a4be9cf8cb594'
-        });
-    });
-</script>
+<ul id="photoarun"></ul>
