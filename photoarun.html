@@ -5,18 +5,11 @@ permalink: /photoarun/
 ---
 
 ==
-<script>
-    $(document).ready(function() {
-
-        console.log('page is now ready, initialize the calendar...');
-
-        $('#calendar').fullCalendar({
-            // put your options and callbacks here
-        });
-    });
-
+<script src="/js/calendar.js"></script>
+<script type="text/javascript">
+    var cal = new Calendar();
+    cal.generateHTML();
+    document.write(cal.getHTML());
 </script>
-
-<div id="calendar"></div>
 
 <ul id="photoarun"></ul>

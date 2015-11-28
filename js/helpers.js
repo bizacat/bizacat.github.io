@@ -51,7 +51,7 @@ for (i=0; i < tagList.length; i++) {
 var accessToken = '1467055893.9fcd975.516d1778069d4706812a4be9cf8cb594';
 var clientId = '9fcd97533de7404388454e3d65c663d5';
 var userId = '1467055893';
-var url = 'https://api.instagram.com/v1/tags/photoarun/media/recent?access_token=' + accessToken;
+var url = 'https://api.instagram.com/v1/tags/photoarun/media/recent?access_token=' + accessToken + '&count=20';
 
 $(document).ready(function(){
 
@@ -66,16 +66,16 @@ $(document).ready(function(){
             console.log(data);
 
             // Get an array of all the dates on the calendar
-            var calendarDay = $('thead td[data-date]');
-            var dataAttr = $.map(calendarDay, function (element) {
-                return $(element).attr('data-date');
-            });
+            var calendarDay = $('.calendar-day');
+            var dateIds= $(".calendar-day[id]")         // find spans with ID attribute
+                .map(function() { return this.id; }) // convert to set of IDs
+                .get(); // convert to instance of Array (optional)
 
             // Loop through all of the #photoarun photos available
             for (x in data.data) {
 
                 // Loop through the calendar date array
-                for (y in dataAttr) {
+                for (y in dateIds) {
 
                     // Get the date of each #photoarun
                     var timeStamp = new Date(parseInt(data.data[x].created_time) * 1000);
@@ -83,8 +83,8 @@ $(document).ready(function(){
                     var newTimeStamp = new Date(parseInt(data.data[x].created_time) * 1000);
                     newTimeStamp = $.format.date(newTimeStamp, 'MMMM d');
 
-                    if (dataAttr[y] === timeStamp) {
-                        $('thead td[data-date="' + dataAttr[y] + '"]').append('' +
+                    if (dateIds[y] === timeStamp) {
+                        $('.calendar-day[id="' + dateIds[y] + '"]').append('' +
                             '<a data-strip-group="photoarun" class="strip" href="'
                             + data.data[x].images.standard_resolution.url
                             + '" data-strip-caption="'
@@ -93,10 +93,17 @@ $(document).ready(function(){
                             + '"><img src="'
                             + data.data[x].images.low_resolution.url
                             + '"></a>');
-                        $('thead td[data-date="' + dataAttr[y] + '"] .date-number').addClass('visible');
+                        $('thead td[data-date="' + dateIds[y] + '"] .date-number').addClass('visible');
                     }
                 }
             }
+            // Check if any day has more than one image
+            $('.calendar-day').each(function() {
+                var $this = $(this);
+                if ($this.find('img').length > 1) {
+                    $this.addClass('twinsies');
+                }
+            });
         },
         error: function (data) {
             console.log(data);

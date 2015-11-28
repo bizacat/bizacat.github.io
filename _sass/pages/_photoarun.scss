@@ -1,19 +1,4 @@
-table {
-  border-spacing: 0px !important;
-}
-
-[class^="fc-"] {
-  border: 0 !important;
-  box-sizing: border-box !important;
-}
-
-.fc-content-skeleton, .fc-bg {
-  td {
-    overflow: hidden;
-  }
-}
-
-.fc-content-skeleton td {
+.calendar-day {
   position: relative;
   padding: 0 !important;
   font-size: 2em;
@@ -29,18 +14,6 @@ table {
     z-index: -1;
     margin: 1% auto;
   }
-}
-
-.fc-row.fc-week.fc-widget-content {
-  height: auto !important;
-}
-
-.fc-basic-view td.fc-week-number span, .fc-basic-view td.fc-day-number, .fc-content-skeleton, .fc-bg, .fc-basic-view .fc-day-number, .fc-basic-view .fc-week-number {
-  padding-top: 0 !important;
-  padding-right: 0 !important;
-  padding-left: 0 !important;
-  padding-bottom: 0 !important;
-  padding: 0 !important;
 }
 
 .date-number {
@@ -63,5 +36,20 @@ table {
   display: block;
   @include media-query($on-palm) {
     display: none;
+  }
+}
+
+.twinsies img {
+  width: 50%;
+}
+
+.calendar-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+  &, * {
+    box-sizing: border-box;
   }
 }
