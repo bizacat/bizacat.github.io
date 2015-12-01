@@ -66,7 +66,9 @@ $(document).ready(function(){
             console.log(data);
 
             // Get an array of all the dates on the calendar
-            var calendarDay = $('.calendar-day');
+            var calendarDay = $('.calendar-day')
+                .map(function() { return this })
+                .get();
             var dateIds= $(".calendar-day[id]")         // find spans with ID attribute
                 .map(function() { return this.id; }) // convert to set of IDs
                 .get(); // convert to instance of Array (optional)
@@ -85,7 +87,7 @@ $(document).ready(function(){
 
                     if (dateIds[y] === timeStamp) {
                         $('.calendar-day[id="' + dateIds[y] + '"]').append('' +
-                            '<a data-strip-group="photoarun" class="strip" href="'
+                            '<a data-strip-group="photoarun" class="strip photoarun-photo" href="'
                             + data.data[x].images.standard_resolution.url
                             + '" data-strip-caption="'
                             + newTimeStamp + ': '
@@ -93,10 +95,13 @@ $(document).ready(function(){
                             + '"><img src="'
                             + data.data[x].images.low_resolution.url
                             + '"></a>');
-                        $('thead td[data-date="' + dateIds[y] + '"] .date-number').addClass('visible');
+                        $('.calendar-day[id="' + dateIds[y] + '"] .date-number').addClass('visible');
                     }
                 }
             }
+
+            // Get height of day with photo and make all td.calendar-height the same height
+
             // Check if any day has more than one image
             $('.calendar-day').each(function() {
                 var $this = $(this);
@@ -109,15 +114,12 @@ $(document).ready(function(){
             console.log(data);
         }
     });
+
 });
 
+$(window).load(function() {
 
-$('#calendar').fullCalendar({
+    var photoHeight = $('.calendar-day img').height();
+    $('.calendar-day').height(photoHeight);
 
-    views: {
-        month: { // name of view
-            titleFormat: ''
-            // other view-specific options here
-        }
-    }
 });

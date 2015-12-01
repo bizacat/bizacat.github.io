@@ -9,7 +9,7 @@
     }
   }
   img {
-    width: 99%;
+    width: 98.5%;
     position: relative;
     z-index: -1;
     margin: 1% auto;
@@ -19,7 +19,7 @@
 .date-number {
   position: absolute;
   right: 10px;
-  top: 5px;
+  top: -2px;
   &.visible {
     color: #ffffff;
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
