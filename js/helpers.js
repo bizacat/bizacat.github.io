@@ -51,16 +51,17 @@ for (i=0; i < tagList.length; i++) {
 var accessToken = '1467055893.9fcd975.516d1778069d4706812a4be9cf8cb594';
 var clientId = '9fcd97533de7404388454e3d65c663d5';
 var userId = '1467055893';
-var url = 'https://api.instagram.com/v1/tags/photoarun/media/recent?access_token=' + accessToken + '&count=20';
+var url = 'https://api.instagram.com/v1/tags/bizacat/media/recent?access_token=' + accessToken + '&count=33';
 
 $(document).ready(function(){
 
     $.ajax({
-        url: url,
+        url: url + '?max_tag_id=1116837303433427612_1467055893',
         dataType: 'jsonp',
         type: 'GET',
         data: {
-            clientId: clientId
+            clientId: clientId,
+            count: 50
         },
         success: function (data) {
             console.log(data);
