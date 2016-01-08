@@ -38,8 +38,7 @@
         <entry file="file://$PROJECT_DIR$/js/photoarun.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.90384614">
-              <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
-              <caret line="94" column="41" selection-start-line="94" selection-start-column="41" selection-end-line="94" selection-end-column="41" />
+              <caret line="94" column="84" selection-start-line="94" selection-start-column="84" selection-end-line="94" selection-end-column="84" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -594,12 +593,12 @@
       <workItem from="1451316941087" duration="174000" />
       <workItem from="1451438578312" duration="3482000" />
       <workItem from="1451924101979" duration="383000" />
-      <workItem from="1452292792371" duration="77000" />
+      <workItem from="1452292792371" duration="162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172381000" />
+    <option name="totallyTimeSpent" value="172466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="23" width="1387" height="877" extended-state="6" />
@@ -1005,8 +1004,7 @@
     <entry file="file://$PROJECT_DIR$/js/photoarun.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.90384614">
-          <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
-          <caret line="94" column="41" selection-start-line="94" selection-start-column="41" selection-end-line="94" selection-end-column="41" />
+          <caret line="94" column="84" selection-start-line="94" selection-start-column="84" selection-end-line="94" selection-end-column="84" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
