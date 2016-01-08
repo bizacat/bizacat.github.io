@@ -1,4 +1,9 @@
-.calendar-day {
+#calendar {
+  max-width: 90%;
+  margin: 1rem auto;
+}
+
+.fc-content-skeleton {
   position: relative;
   padding: 0 !important;
   font-size: 2em;
@@ -14,6 +19,18 @@
     z-index: -1;
     margin: 1% auto;
   }
+}
+
+[class^="fc-"] {
+  height: auto !important;
+  border-collapse: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+}
+
+.fc-day-number {
+  position: relative;
 }
 
 .date-number {
