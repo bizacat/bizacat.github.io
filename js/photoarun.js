@@ -90,9 +90,9 @@ $(document).ready(function() {
                             if (dataAttr[y] === timeStamp[x]) {
                                 $('thead td[data-date="' + dataAttr[y] + '"]').append('' +
                                     '<a data-strip-group="photoarun" class="strip photoarun-photo" href="'
-                                    + '/img/photoarun/' + timeStamp[x] + '.jpg'
+                                    + '../img/photoarun/' + timeStamp[x] + '.jpg'
                                     + '" data-strip-caption=""><img src="'
-                                    + '/img/photoarun/' + timeStamp[x] + '.jpg'
+                                    + '../img/photoarun/' + timeStamp[x] + '.jpg'
                                     + '"></a>'
                                 );
                                 $('thead td[data-date="' + dataAttr[y] + '"] .date-number').addClass('visible');
