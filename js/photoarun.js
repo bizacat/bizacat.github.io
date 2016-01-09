@@ -57,7 +57,7 @@
 //});
 
 
-$(document).ready(function() {
+$(window).load(function() {
 
     // page is now ready, initialize the calendar...
 
