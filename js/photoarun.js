@@ -89,15 +89,15 @@ $(document).ready(function() {
                         timeStamp.push(this.text.slice(0, -4)).split;
                     });
 
-
+console.log('w');
                     // Loop through all of the #photoarun photos available
                     for (x in timeStamp) {
                         // Loop through the calendar date array
                         for (y in dataAttr) {
 
+                            console.log(timeStamp);
                             if (dataAttr[y] === timeStamp[x]) {
 
-                                console.log(timeStamp);
                                 $('thead td[data-date="' + dataAttr[y] + '"]').append('' +
                                     '<a data-strip-group="photoarun" class="strip photoarun-photo" href="'
                                     + '/img/photoarun/' + timeStamp[x] + '.jpg'
