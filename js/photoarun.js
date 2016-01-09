@@ -65,7 +65,7 @@ $(window).load(function() {
         // put your options and callbacks here
         events: function(start, end, timezone, callback) {
             $.ajax({
-                url: '/img/photoarun',
+                url: '/img/photoarun/',
                 success: function (data) {
                     console.log('it works!');
                     // Get an array of all the dates on the calendar
