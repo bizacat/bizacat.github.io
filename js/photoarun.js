@@ -76,6 +76,7 @@ $(document).ready(function() {
         events: function(start, end, timezone, callback) {
             $.ajax({
                 url: '../img/photoarun',
+                type: 'GET',
                 success: function (data) {
                     // Get an array of all the dates on the calendar
                     var calendarDay = $('thead td[data-date]');
@@ -91,7 +92,7 @@ $(document).ready(function() {
 
                     for (x in timeStamp) {
                         // Loop through all of the #photoarun photos available
-                        
+
                         for (y in dataAttr) {
 
                             if (dataAttr[y] === timeStamp[x]) {
