@@ -89,13 +89,13 @@ $(document).ready(function() {
                         timeStamp.push(this.text.slice(0, -4)).split;
                     });
 
-console.log('w');
-                    // Loop through all of the #photoarun photos available
                     for (x in timeStamp) {
-                        // Loop through the calendar date array
+                        // Loop through all of the #photoarun photos available
+                        console.log(timeStamp[x]);
                         for (y in dataAttr) {
+                            // Loop through the calendar date array
+                            console.log(dataAttr[y]);
 
-                            console.log(timeStamp);
                             if (dataAttr[y] === timeStamp[x]) {
 
                                 $('thead td[data-date="' + dataAttr[y] + '"]').append('' +
