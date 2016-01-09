@@ -54,7 +54,17 @@
 //            console.log(data);
 //        }
 //    });
-//});
+////});
+//<strong>File not found</strong></p>↵↵ <p>↵ The site configured at this address does not↵ contain the requested file.↵
+//</p>↵↵ <p>↵ If this is your site, make sure that the filename case matches the URL.<br>↵ For root URLs
+//(like <code>http://example.com/</code>) you must provide an↵ <code>index.html</code> file.↵ </p>↵↵ <p>↵
+// <a href=\"https://help.github.com/pages/\">Read the full documentation</a>↵ for
+// more information about using <strong>GitHub Pages</strong>.↵ </p>↵↵ <div id=\"suggestions\">↵
+// <a href=\"https://status.github.com\">GitHub Status</a> &mdash;↵ <
+// a href=\"https://twitter.com/githubstatus\">@githubstatus</a>↵ </div>↵↵
+
+
+
 
 
 $(window).load(function() {
@@ -65,7 +75,7 @@ $(window).load(function() {
         // put your options and callbacks here
         events: function(start, end, timezone, callback) {
             $.ajax({
-                url: '/img/photoarun/',
+                url: 'http://bizacat.github.io/img/photoarun/',
                 success: function (data) {
                     console.log('it works!');
                     // Get an array of all the dates on the calendar
