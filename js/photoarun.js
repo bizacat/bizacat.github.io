@@ -75,7 +75,7 @@ $(document).ready(function() {
         // put your options and callbacks here
         events: function(start, end, timezone, callback) {
             $.ajax({
-                url: '../img/photoarun',
+                url: 'http://bizacat.github.io/img/photoarun',
                 type: 'GET',
                 success: function (data) {
                     // Get an array of all the dates on the calendar
