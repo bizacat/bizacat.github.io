@@ -65,7 +65,7 @@ $(document).ready(function() {
         // put your options and callbacks here
         events: function(start, end, timezone, callback) {
             $.ajax({
-                url: '../img/photoarun',
+                url: '/img/photoarun',
                 success: function (data) {
                     // Get an array of all the dates on the calendar
                     var calendarDay = $('thead td[data-date]');
@@ -88,14 +88,13 @@ $(document).ready(function() {
                         for (y in dataAttr) {
 
                             if (dataAttr[y] === timeStamp[x]) {
-                                //$('thead td[data-date="' + dataAttr[y] + '"]').append('' +
-                                //    '<a data-strip-group="photoarun" class="strip photoarun-photo" href="'
-                                //    + '../../img/photoarun/' + timeStamp[x] + '.jpg'
-                                //    + '" data-strip-caption=""><img src="'
-                                //    + '../../img/photoarun/' + timeStamp[x] + '.jpg'
-                                //    + '"></a>'
-                                //);
-                                console.log(timeStamp[x]);
+                                $('thead td[data-date="' + dataAttr[y] + '"]').append('' +
+                                    '<a data-strip-group="photoarun" class="strip photoarun-photo" href="'
+                                    + '/img/photoarun/' + timeStamp[x] + '.jpg'
+                                    + '" data-strip-caption=""><img src="'
+                                    + '/img/photoarun/' + timeStamp[x] + '.jpg'
+                                    + '"></a>'
+                                );
                                 $('thead td[data-date="' + dataAttr[y] + '"] .date-number').addClass('visible');
                             }
 

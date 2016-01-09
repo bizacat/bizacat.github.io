@@ -37,8 +37,8 @@
       <file leaf-file-name="photoarun.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/photoarun.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7307692">
-              <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="96" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.40384614">
+              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -613,12 +613,12 @@
       <workItem from="1451316941087" duration="174000" />
       <workItem from="1451438578312" duration="3482000" />
       <workItem from="1451924101979" duration="383000" />
-      <workItem from="1452292792371" duration="548000" />
+      <workItem from="1452292792371" duration="611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172852000" />
+    <option name="totallyTimeSpent" value="172915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="23" width="1387" height="877" extended-state="6" />
@@ -1026,8 +1026,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/photoarun.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7307692">
-          <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="96" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.40384614">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
