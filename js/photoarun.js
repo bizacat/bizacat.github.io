@@ -75,7 +75,7 @@ $(document).ready(function() {
         // put your options and callbacks here
         events: function(start, end, timezone, callback) {
             $.ajax({
-                url: 'http://bizacat.github.io/img/photoarun',
+                url: '../img/photoarun',
                 success: function (data) {
                     // Get an array of all the dates on the calendar
                     var calendarDay = $('thead td[data-date]');
@@ -91,12 +91,12 @@ $(document).ready(function() {
 
                     for (x in timeStamp) {
                         // Loop through all of the #photoarun photos available
-                        console.log(timeStamp[x]);
+                        
                         for (y in dataAttr) {
-                            // Loop through the calendar date array
-                            console.log(dataAttr[y]);
 
                             if (dataAttr[y] === timeStamp[x]) {
+                                // Loop through the calendar date array
+                                console.log(timeStamp);
 
                                 $('thead td[data-date="' + dataAttr[y] + '"]').append('' +
                                     '<a data-strip-group="photoarun" class="strip photoarun-photo" href="'
