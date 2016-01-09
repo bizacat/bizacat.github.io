@@ -95,6 +95,7 @@ $(document).ready(function() {
                                     + '../../img/photoarun/' + timeStamp[x] + '.jpg'
                                     + '"></a>'
                                 );
+                                console.log(timeStamp[x]);
                                 $('thead td[data-date="' + dataAttr[y] + '"] .date-number').addClass('visible');
                             }
 
