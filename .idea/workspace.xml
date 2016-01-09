@@ -37,11 +37,21 @@
       <file leaf-file-name="photoarun.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/photoarun.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86538464">
-              <caret line="97" column="58" selection-start-line="97" selection-start-column="58" selection-end-line="97" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.7307692">
+              <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="96" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="design-work.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-work.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="217" column="125" selection-start-line="217" selection-start-column="107" selection-end-line="217" selection-end-column="125" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -603,12 +613,12 @@
       <workItem from="1451316941087" duration="174000" />
       <workItem from="1451438578312" duration="3482000" />
       <workItem from="1451924101979" duration="383000" />
-      <workItem from="1452292792371" duration="424000" />
+      <workItem from="1452292792371" duration="548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172728000" />
+    <option name="totallyTimeSpent" value="172852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="23" width="1387" height="877" extended-state="6" />
@@ -880,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design-work.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1468254">
-          <caret line="217" column="125" selection-start-line="217" selection-start-column="107" selection-end-line="217" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photoarun-demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05952381">
@@ -1013,10 +1016,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/design-work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="217" column="125" selection-start-line="217" selection-start-column="107" selection-end-line="217" selection-end-column="125" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/photoarun.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86538464">
-          <caret line="97" column="58" selection-start-line="97" selection-start-column="58" selection-end-line="97" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.7307692">
+          <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="96" selection-end-column="36" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
