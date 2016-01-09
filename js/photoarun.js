@@ -82,7 +82,6 @@ $(document).ready(function() {
                     var dataAttr = $.map(calendarDay, function (element) {
                         return $(element).attr('data-date');
                     });
-                    console.log(dataAttr);
 
                     var timeStamp = [];
 
@@ -90,7 +89,6 @@ $(document).ready(function() {
                         timeStamp.push(this.text.slice(0, -4)).split;
                     });
 
-                    console.log(timeStamp);
 
                     // Loop through all of the #photoarun photos available
                     for (x in timeStamp) {
@@ -98,6 +96,8 @@ $(document).ready(function() {
                         for (y in dataAttr) {
 
                             if (dataAttr[y] === timeStamp[x]) {
+
+                                console.log(timeStamp);
                                 $('thead td[data-date="' + dataAttr[y] + '"]').append('' +
                                     '<a data-strip-group="photoarun" class="strip photoarun-photo" href="'
                                     + '/img/photoarun/' + timeStamp[x] + '.jpg'
