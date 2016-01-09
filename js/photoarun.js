@@ -75,7 +75,7 @@ $(document).ready(function() {
         // put your options and callbacks here
         events: function(start, end, timezone, callback) {
             $.ajax({
-                url: 'http://bizacat.github.io/img/photoarun',
+                url: 'http://bizacat.github.io/photoarun',
                 type: 'GET',
                 success: function (data) {
                     // Get an array of all the dates on the calendar
@@ -101,9 +101,9 @@ $(document).ready(function() {
 
                                 $('thead td[data-date="' + dataAttr[y] + '"]').append('' +
                                     '<a data-strip-group="photoarun" class="strip photoarun-photo" href="'
-                                    + '/img/photoarun/' + timeStamp[x] + '.jpg'
+                                    + '/photoarun/' + timeStamp[x] + '.jpg'
                                     + '" data-strip-caption=""><img src="'
-                                    + '/img/photoarun/' + timeStamp[x] + '.jpg'
+                                    + '/photoarun/' + timeStamp[x] + '.jpg'
                                     + '"></a>'
                                 );
                                 $('thead td[data-date="' + dataAttr[y] + '"] .date-number').addClass('visible');
