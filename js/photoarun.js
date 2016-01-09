@@ -67,7 +67,7 @@
 
 
 
-$(window).load(function() {
+$(document).ready(function() {
 
     // page is now ready, initialize the calendar...
 
@@ -77,7 +77,6 @@ $(window).load(function() {
             $.ajax({
                 url: 'http://bizacat.github.io/',
                 success: function (data) {
-                    console.log('it works!');
                     // Get an array of all the dates on the calendar
                     var calendarDay = $('thead td[data-date]');
                     var dataAttr = $.map(calendarDay, function (element) {
