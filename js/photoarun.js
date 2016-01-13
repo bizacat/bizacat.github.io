@@ -66,9 +66,8 @@
 
 
 
-
-$(document).ready(function() {
-
+$(window).load(function() {
+    console.log('change 1');
     // page is now ready, initialize the calendar...
 
     $('#calendar').fullCalendar({
