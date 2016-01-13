@@ -7,7 +7,7 @@ $(document).ready(function() {
         events: function (start, end, timezone, callback) {
 
             $.ajax({
-                url: '../img/photoarun',
+                url: 'http://bizacat.github.io/img/photoarun',
                 success: function (data) {
                     // Get an array of all the dates on the calendar
                     var calendarDay = $('thead td[data-date]');
