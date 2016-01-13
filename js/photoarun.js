@@ -66,9 +66,9 @@
 
 
 
-$(window).load(function() {
-    console.log('change 1');
+$(document).ready(function() {
     // page is now ready, initialize the calendar...
+
 
     $('#calendar').fullCalendar({
         // put your options and callbacks here
@@ -76,6 +76,7 @@ $(window).load(function() {
             $.ajax({
                 url: 'http://bizacat.github.io/photoarun/',
                 success: function (data) {
+                    console.log('change 1');
                     // Get an array of all the dates on the calendar
                     var calendarDay = $('thead td[data-date]');
                     var dataAttr = $.map(calendarDay, function (element) {
