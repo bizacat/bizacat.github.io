@@ -26,27 +26,27 @@ $(document).ready(function() {
             changePicture(0);
         });
     }
-
-    function changePicture(indexOffset) {
-        pictureIndex += indexOffset;
-        if (pictureIndex >= pictures.length) {
-            pictureIndex = 0;
-        } else if (pictureIndex < 0) {
-            pictureIndex = pictures.length - 1;
-        }
-        $('#viewer').attr('src', baseUrl + pictures[pictureIndex]);
-        $('#info').text((pictureIndex + 1) + "/" + pictures.length);
-    }
-
-    getFiles();
-    $(document).keydown(function(e){
-        var left = -1, right = 1;
-        if (e.keyCode == 37) {
-            changePicture(left); return false;
-        } else if (e.keyCode == 39) {
-            changePicture(right); return false;
-        }
-    });
+    //
+    //function changePicture(indexOffset) {
+    //    pictureIndex += indexOffset;
+    //    if (pictureIndex >= pictures.length) {
+    //        pictureIndex = 0;
+    //    } else if (pictureIndex < 0) {
+    //        pictureIndex = pictures.length - 1;
+    //    }
+    //    $('#viewer').attr('src', baseUrl + pictures[pictureIndex]);
+    //    $('#info').text((pictureIndex + 1) + "/" + pictures.length);
+    //}
+    //
+    //getFiles();
+    //$(document).keydown(function(e){
+    //    var left = -1, right = 1;
+    //    if (e.keyCode == 37) {
+    //        changePicture(left); return false;
+    //    } else if (e.keyCode == 39) {
+    //        changePicture(right); return false;
+    //    }
+    //});
 
 });
 //    // page is now ready, initialize the calendar...
