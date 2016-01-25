@@ -23,7 +23,6 @@ $(document).ready(function() {
                 }
             });
             console.log(pictures.length + " pictures loaded!");
-            changePicture(0);
         });
     }
     //
@@ -38,7 +37,7 @@ $(document).ready(function() {
     //    $('#info').text((pictureIndex + 1) + "/" + pictures.length);
     //}
     //
-    //getFiles();
+    getFiles();
     //$(document).keydown(function(e){
     //    var left = -1, right = 1;
     //    if (e.keyCode == 37) {

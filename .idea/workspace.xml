@@ -37,8 +37,8 @@
       <file leaf-file-name="photoarun.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/photoarun.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1434263">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.90039843">
+              <caret line="47" column="9" selection-start-line="40" selection-start-column="17" selection-end-line="47" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -47,8 +47,8 @@
       <file leaf-file-name="photoarun.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photoarun.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="-15.625">
+              <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -545,12 +545,12 @@
       <workItem from="1451924101979" duration="383000" />
       <workItem from="1452292792371" duration="3692000" />
       <workItem from="1452715755400" duration="4298000" />
-      <workItem from="1453406385305" duration="3431000" />
+      <workItem from="1453406385305" duration="3494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183725000" />
+    <option name="totallyTimeSpent" value="183788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="23" width="1376" height="877" extended-state="6" />
@@ -954,16 +954,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/photoarun.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="-15.625">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/photoarun.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1434263">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.90039843">
+          <caret line="47" column="9" selection-start-line="40" selection-start-column="17" selection-end-line="47" selection-end-column="9" />
           <folding />
         </state>
       </provider>
