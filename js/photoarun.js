@@ -1,4 +1,16 @@
-//$(document).ready(function() {
+$(document).ready(function() {
+
+    $.ajax({
+        url: "http://bizacat.github.io/img/photoarun/",
+        success: function(data){
+            $(data).find("td > a").each(function(){
+                // will loop through
+                alert("Found a file: " + $(this).attr("href"));
+            });
+        }
+    });
+
+});
 //    // page is now ready, initialize the calendar...
 //
 //    $.ajax({
