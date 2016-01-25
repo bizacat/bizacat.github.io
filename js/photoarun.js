@@ -9,7 +9,7 @@ $(document).ready(function() {
     //        });
     //    }
     //});
-    var baseUrl = "/photoarun-images/";
+    var baseUrl = "/img/";
     var pictureIndex = 0;
     var pictures = [];
 
