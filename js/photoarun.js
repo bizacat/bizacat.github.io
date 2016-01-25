@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $.ajax({
-        url: "http://bizacat.github.io/photoarun-images/",
+        url: "http://bizacat.github.io/photoarun-images/2015-12-31",
         success: function(data){
             $(data).find("td > a").each(function(){
                 // will loop through
