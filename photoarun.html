@@ -8,21 +8,16 @@ permalink: /photoarun/
 
 <script src="/js/calendar2.js"></script>
 <!--<script src="/js/calendar1.js"></script>-->
+<script type="text/javascript">
+    $(document).ready(function(){
 
+        // page is now ready, initialize the calendar...
 
-<!--<script type="text/javascript">-->
-    <!--var cal = new Calendar();-->
-    <!--cal.generateHTML();-->
-    <!--document.write(cal.getHTML());-->
-    <!--console.log('Calendar loaded');-->
+        $('#calendar').fullCalendar({
+            // put your options and callbacks here
+        })
 
-    <!--// On clicking back, go to the previous month-->
-    <!--$('#back-month').click(function(event) {-->
-        <!--event.preventDefault();-->
-        <!--var cal = new Calendar();-->
-        <!--cal.generateHTML();-->
-    <!--});-->
+    });
+</script>
 
-<!--</script>-->
-
-<ul id="photoarun"></ul>
+<ul id="calendar"></ul>
