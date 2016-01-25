@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
     $.ajax({
-        url: "http://bizacat.github.io/photoarun/",
+        url: "http://bizacat.github.io/photoarun-images/",
         success: function(data){
             $(data).find("td > a").each(function(){
                 // will loop through
-                alert("Found a file: " + $(this).attr("href"));
+                console.log("Found a file: " + $(this).attr("href"));
             });
         }
     });
