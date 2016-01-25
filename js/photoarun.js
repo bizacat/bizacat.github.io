@@ -1,51 +1,14 @@
 $(document).ready(function() {
 
-    //$.ajax({
-    //    url: "http://bizacat.github.io/photoarun-images/",
-    //    success: function(data){
-    //        $(data).find("td > a").each(function(){
-    //            // will loop through
-    //            console.log("Found a file: " + $(this).attr("href"));
-    //        });
-    //    }
-    //});
-    var baseUrl = "/img/";
-    var pictureIndex = 0;
-    var pictures = [];
-
-    function getFiles() {
-        $.ajax(baseUrl).success(function(data) {
-            pictures = [];
-            $(data).find("a[href]").each(function() {
-                var href = $(this).attr('href');
-                if (href.indexOf('.jpg') > 0 || href.indexOf('.png') > 0 || href.indexOf('.jpeg') > 0) {
-                    pictures.push(href);
-                }
+    $.ajax({
+        url: "http://bizacat.github.io/photoarun-images/",
+        success: function(data){
+            $(data).find("td > a").each(function(){
+                // will loop through
+                console.log("Found a file: " + $(this).attr("href"));
             });
-            console.log(pictures.length + " pictures loaded!");
-        });
-    }
-    //
-    //function changePicture(indexOffset) {
-    //    pictureIndex += indexOffset;
-    //    if (pictureIndex >= pictures.length) {
-    //        pictureIndex = 0;
-    //    } else if (pictureIndex < 0) {
-    //        pictureIndex = pictures.length - 1;
-    //    }
-    //    $('#viewer').attr('src', baseUrl + pictures[pictureIndex]);
-    //    $('#info').text((pictureIndex + 1) + "/" + pictures.length);
-    //}
-    //
-    getFiles();
-    //$(document).keydown(function(e){
-    //    var left = -1, right = 1;
-    //    if (e.keyCode == 37) {
-    //        changePicture(left); return false;
-    //    } else if (e.keyCode == 39) {
-    //        changePicture(right); return false;
-    //    }
-    //});
+        }
+    });
 
 });
 //    // page is now ready, initialize the calendar...
