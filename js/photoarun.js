@@ -8,6 +8,9 @@ $(document).ready(function() {
                 console.log(data);
                 console.log("Found a file: " + $(this).attr("href"));
             });
+        },
+        error: function(xhr, error){
+            console.debug(xhr); console.debug(error);
         }
     });
 
