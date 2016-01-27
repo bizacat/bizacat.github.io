@@ -5,6 +5,7 @@ $(document).ready(function() {
         success: function(data){
             $(data).find('a:contains(".jpg")').each(function (){
                 // will loop through
+                console.log(data);
                 console.log("Found a file: " + $(this).attr("href"));
             });
         }
