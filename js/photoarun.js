@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
     $.ajax({
-        url: "http://bizacat.github.io/photoarun-images/2015-12-31",
+        url: "http://bizacat.github.io/photoarun-images/",
         success: function(data){
-            $(data).find("td > a").each(function(){
+            $(data).find('a:contains(".jpg")').each(function (){
                 // will loop through
                 console.log("Found a file: " + $(this).attr("href"));
             });
