@@ -48,7 +48,8 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 
 // Vendor
-@import "vendor/chocolat-overrides";
+@import "vendor/chocolat-overrides",
+        "vendor/slidejs";
 
 // Utilities
 @import "utilities/resets",

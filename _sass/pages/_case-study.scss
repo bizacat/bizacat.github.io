@@ -8,15 +8,17 @@
       color: #414042;
     }
     h2 {
-      margin-bottom: 0;
+      margin-bottom: 0.5rem;
     }
     h4 {
       color: #888888;
+      line-height: 1.2;
     }
     img {
       margin: $spacing-unit auto;
       display: block;
       text-align: center;
+      width: 100%;
     }
     ul {
       margin: 1rem 4rem;
@@ -26,4 +28,24 @@
       list-style-type: circle;
     }
   }
+}
+
+.mobi-website {
+  &.hero {
+    background: url('/img/hero-bg.jpg') no-repeat;
+    background-size: 100%;
+    min-height: 500px;
+    color: #414042;
+  }
+}
+
+ul.negative {
+  background-color: rgba(255, 134, 97, 0.125) !important;
+}
+ul.positive {
+  background-color: rgba(158, 192, 35, 0.12) !important;
+}
+
+section.color {
+  background-color: #f7f7f7;
 }

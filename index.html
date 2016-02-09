@@ -62,34 +62,38 @@ layout: homepage
     </div>
 </section>
 <section>
-    <a data-strip-group="mygroup" class="strip" href="/img/data-views.png" data-strip-caption="A quick and dirty supportive chart for an executive sales meeting to represent
+    <div class="container">
+        <div id="slides">
+            <img src="{{ site.baseurl }}/img/showcase/travelling-salesman.jpg" alt="A quick and dirty supportive chart for an executive sales meeting to represent
     the load of raw data received by mobi and the resulting views output by mobi's analytics platform, along with their real-world industry uses">
-        <img width="180" src="/img/data-views.png">
-    </a>
-    <a data-strip-group="mygroup" class="strip" href="/img/travelling-salesman.jpg" data-strip-caption="Another diagram done for mobi's executives to help detail the complexity
-    of the 'Travelling Salesman Problem' and how mobi's software drastically simplifies the solution.">
-        <img width="180" src="/img/travelling-salesman.jpg">
-    </a>
-    <a data-strip-group="mygroup" class="strip" href="/img/cd-higher-ed-infograph.jpg" data-strip-caption="A piece of an infographic I did for CreditDonkey.com regarding the cost
+            <img src="{{ site.baseurl }}/img/showcase/optimized-routes-diagram.jpg" alt="A piece of an infographic I did for CreditDonkey.com regarding the cost
     of higher education today (done in 2011). Two graphs with greatly different ranges of the Y-axis yet representing the same unit have their transition
     from one of smaller proportions to the greater detailed in between to show their true relationship.">
-        <img width="180" src="/img/cd-higher-ed-infograph.jpg">
-    </a>
-    <a data-strip-group="mygroup" class="strip" href="/img/ppt2_Appointment%201.png" data-strip-caption="A diagram done to show the complexity of what is happening in the
+            <img src="{{ site.baseurl }}/img/showcase/higher-education-cost.jpg" alt="A diagram done to show the complexity of what is happening in the
     background when a customer of mobi uses mobi API to efficiently produce the best options to suggest a customer for appointment scheduling, considering
     available resources and existing appointments and other details.">
-        <img width="180" src="/img/ppt2_Appointment%201.png">
-    </a>
-    <a data-strip-group="mygroup" class="strip" href="/img/ppt2_Appointment%202.png" data-strip-caption="A continuation of the last diagram showing what happens after an appointment time
+            <img src="{{ site.baseurl }}/img/showcase/new-mobi-homepage.jpg" alt="A continuation of the last diagram showing what happens after an appointment time
     is chosen and is sent to back to the OP to be scheduled.">
-        <img width="180" src="/img/ppt2_Appointment%202.png">
-    </a>
-    <a data-strip-group="mygroup" class="strip" href="/img/ppt2_Appointment%203.png" data-strip-caption="A third diagram representing a different product and process and detailing the steps
+            <img src="{{ site.baseurl }}/img/showcase/mobi-dispatch-watchlist.jpg" alt="A third diagram representing a different product and process and detailing the steps
     taken by the OP and GIS to determine the best appointments.">
-        <img width="180" src="/img/ppt2_Appointment%203.png">
-    </a>
-    <div class="content-wrapper">
-        <h2>Looking to get in touch?</h2>
-        <a href=""><h4>Contact me!</h4></a>
+            <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+            <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+        </div>
     </div>
 </section>
+
+<script>
+    $(document).ready(function() {
+
+        $(function(){
+            $("#slides").slidesjs({
+                width: 640,
+                height: 480,
+                pagination: {
+                    active: true
+                }
+            });
+        });
+
+    });
+</script>
