@@ -15,6 +15,16 @@
   }
 }
 
+.intro {
+  background: $brand-color;
+  height: 15rem;
+  padding: $spacing-unit * 3 5%;
+  *, a {
+    color: #fff28c;
+  }
+}
+
+
 .home {
   .chocolat-parent {
     padding: $spacing-unit;
@@ -36,14 +46,6 @@ span.icon-photos-1:hover {
 
 span.icon-me-1:hover {
   @extend .icon-me-2;
-}
-
-.headline {
-  padding: $spacing-unit * 4 $spacing-unit $spacing-unit;
-  color: $brand-color;
-  a {
-    color: lighten($brand-color, 30%);
-  }
 }
 
 a.page-anchor {

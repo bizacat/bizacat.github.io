@@ -57,8 +57,18 @@
       <file leaf-file-name="mobi-site.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case-studies/mobi-site.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.625">
-              <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+            <state vertical-scroll-proportion="-23.375">
+              <caret line="141" column="134" selection-start-line="141" selection-start-column="134" selection-end-line="141" selection-end-column="134" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_homepage.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/pages/_homepage.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.0">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -67,8 +77,18 @@
       <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/components/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
-              <caret line="45" column="4" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="4" />
+            <state vertical-scroll-proportion="-4.7647057">
+              <caret line="50" column="19" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.176471">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -77,18 +97,8 @@
       <file leaf-file-name="_case-study.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/pages/_case-study.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09053498">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_slidejs.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/vendor/_slidejs.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.436214">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="29" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -174,7 +184,6 @@
         <option value="$PROJECT_DIR$/_sass/pages/_default.scss" />
         <option value="$PROJECT_DIR$/design-work.html" />
         <option value="$PROJECT_DIR$/vendor/potomak-jquery-instagram-d23926b/src/instagram.js" />
-        <option value="$PROJECT_DIR$/_sass/pages/_homepage.scss" />
         <option value="$PROJECT_DIR$/js/calendar.js" />
         <option value="$PROJECT_DIR$/photoarun-demo.html" />
         <option value="$PROJECT_DIR$/case-studies.html" />
@@ -188,14 +197,15 @@
         <option value="$USER_HOME$/Downloads/Slides-SlidesJS-3/examples/standard/index.html" />
         <option value="$PROJECT_DIR$/vendor/slidejs/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/_sass/vendor/_slidejs.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_sass/components/_header.scss" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_sass/components/_layout.scss" />
         <option value="$PROJECT_DIR$/photoarun.html" />
         <option value="$PROJECT_DIR$/js/photoarun.js" />
         <option value="$PROJECT_DIR$/case-studies/mobi-site.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_sass/components/_layout.scss" />
+        <option value="$PROJECT_DIR$/_sass/pages/_homepage.scss" />
         <option value="$PROJECT_DIR$/_sass/pages/_case-study.scss" />
       </list>
     </option>
@@ -670,12 +680,12 @@
       <workItem from="1452715755400" duration="4298000" />
       <workItem from="1453406385305" duration="7255000" />
       <workItem from="1454616875714" duration="7527000" />
-      <workItem from="1454947672578" duration="6983000" />
+      <workItem from="1454947672578" duration="12937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202059000" />
+    <option name="totallyTimeSpent" value="208013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="23" width="1376" height="877" extended-state="6" />
@@ -855,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/pages/_homepage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88095236">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/potomak-jquery-instagram-d23926b/dist/instagram.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -982,14 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56349206">
-          <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/components/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06122449">
@@ -1010,14 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4238683">
           <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.470589">
-          <caret line="52" column="65" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -1072,26 +1059,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.470589">
+          <caret line="52" column="65" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/case-studies/mobi-site.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.625">
-          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+        <state vertical-scroll-proportion="-23.375">
+          <caret line="141" column="134" selection-start-line="141" selection-start-column="134" selection-end-line="141" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.176471">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/pages/_homepage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/components/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="4" />
+        <state vertical-scroll-proportion="-4.7647057">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/pages/_case-study.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09053498">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.436214">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="29" selection-end-column="3" />
           <folding />
         </state>
       </provider>

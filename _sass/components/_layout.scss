@@ -10,7 +10,6 @@
 
 .hero {
   padding: $spacing-unit 20% $spacing-unit * 2;
-  @include hero-colors;
 }
 
 #topNav {
@@ -42,7 +41,7 @@ section h3 {
 }
 
 .brand {
-  background: #0e1823;
+  //background: #0e1823;
   h2 {
     color: $brand-color !important;
   }
