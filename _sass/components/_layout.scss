@@ -7,14 +7,29 @@ a#simple-menu {
   z-index: 9999;
 }
 .sidr-open .sidr {
-  width: 100%;
+  width: 95vw;
+  border-right: 10px solid $brand-color;
   background: #ffffff;
-  padding: $spacing-unit * 2 $spacing-unit;
+  padding: $spacing-unit;
+}
+
+.sidr ul {
+  list-style-type: none;
+  font-size: 2rem;
+  li {
+    display: block;
+    &:hover {
+      background-color: $brand-color;
+      color: #ffffff !important;
+    }
+  }
 }
 
 .sidr .close {
   display: none;
   cursor: pointer;
+  font-size: 2rem;
+  color: $brand-color;
 }
 
 @mixin hero-colors {
