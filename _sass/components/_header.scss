@@ -17,6 +17,10 @@ header {
   font-weight: bolder;
 }
 
+#sidr .close, .icon-hamburger-menu {
+  font-size: 2rem;
+}
+
 #sidr {
   a {
     padding: 1rem;
@@ -30,7 +34,6 @@ header {
   .close {
     display: none;
     cursor: pointer;
-    font-size: 2rem;
     color: $brand-color;
   }
 
@@ -55,6 +58,12 @@ header {
 }
 
 @include media-query($on-palm) {
+
+  .site-nav {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+  }
 
   #simple-menu {
     display: inline-block;
