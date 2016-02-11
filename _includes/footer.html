@@ -51,9 +51,19 @@
 
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="{{ site.baseurl }}/vendor/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+  <script src="{{ site.baseurl }}/vendor/sidr-2.1.0/dist/jquery.sidr.min.js"></script>
 
   <!-- My js -->
   <script src="/js/helpers.js"></script>
   <script src="/js/photoarun.js"></script>
 
+  <script type="text/javascript">
+
+    $(document).ready(function() {
+
+      $('#simple-menu').sidr();
+
+    });
+
+  </script>
 </footer>
