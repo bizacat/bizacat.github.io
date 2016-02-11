@@ -9,6 +9,45 @@ header {
 .page-link {
   padding: 1.2em 2em;
   display: inline-block;
+  text-align: center;
+}
+
+.trigger .active {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+#sidr {
+  a {
+    padding: 1rem;
+    display: block;
+    &.active {
+      background-color: $brand-color;
+      color: #ffffff;
+    }
+  }
+
+  .close {
+    display: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: $brand-color;
+  }
+
+  ul {
+    list-style-type: none;
+    font-size: 2rem;
+    li {
+      display: block;
+      &:hover {
+        background-color: $brand-color;
+        a {
+          color: #ffffff !important;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
 
 #simple-menu {
@@ -16,11 +55,22 @@ header {
 }
 
 @include media-query($on-palm) {
-  
+
   #simple-menu {
     display: inline-block;
   }
   .trigger {
     display: none;
   }
+}
+
+
+a#simple-menu {
+  z-index: 9999;
+}
+.sidr-open .sidr {
+  width: 100vw;
+  border-right: 10px solid $brand-color;
+  background: #ffffff;
+  padding: $spacing-unit;
 }
