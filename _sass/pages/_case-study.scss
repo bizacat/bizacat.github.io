@@ -4,6 +4,7 @@
     text-align: center;
   }
   .content-wrapper {
+    max-width: 80em;
     a h2 {
       color: #414042;
     }
@@ -49,3 +50,30 @@ ul.positive {
 section.color {
   background-color: #f7f7f7;
 }
+
+.thumbnail {
+  img {
+    border: 1px solid #eaeaea;
+  }
+  &:hover img {
+    opacity: 0.3;
+  }
+}
+
+.case-study .description {
+  padding-top: 2rem;
+  h1 {
+    font-family: 'proxima-nova-soft', 'Proxima Nova Soft', 'Arial', sans-serif;
+  }
+}
+
+//.case-study {
+//  &.routing {
+//    background: url('/img/case-study-route-bg.jpg') no-repeat;
+//    background-size: 100%;
+//  }
+//
+//  &.website {
+//    background: url('/img/hero-bg.jpg') no-repeat;
+//  }
+//}
