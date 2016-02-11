@@ -61,7 +61,17 @@
 
     $(document).ready(function() {
 
-      $('#simple-menu').sidr();
+      $('#simple-menu').sidr({
+
+        onOpen: function() {
+          $('.sidr .close').fadeIn();
+        }
+
+      });
+
+      $('.sidr .close').click(function() {
+        $.sidr('close');
+      });
 
     });
 

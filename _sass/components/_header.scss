@@ -10,3 +10,17 @@ header {
   padding: 1.2em 2em;
   display: inline-block;
 }
+
+#simple-menu {
+  display: none;
+}
+
+@include media-query($on-palm) {
+  
+  #simple-menu {
+    display: inline-block;
+  }
+  .trigger {
+    display: none;
+  }
+}

@@ -3,6 +3,20 @@
 @import "../vendor/bootstrap/mixins/grid";
 @import "../vendor/bootstrap/grid";
 
+a#simple-menu {
+  z-index: 9999;
+}
+.sidr-open .sidr {
+  width: 100%;
+  background: #ffffff;
+  padding: $spacing-unit * 2 $spacing-unit;
+}
+
+.sidr .close {
+  display: none;
+  cursor: pointer;
+}
+
 @mixin hero-colors {
   color: #ffffff;
   background: $dark-brand-color;
