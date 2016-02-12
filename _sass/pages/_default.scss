@@ -1,15 +1,29 @@
 .default {
+  
   .hero {
     color: $brand-color;
     text-align: center;
   }
+
   .read-more {
     font-size: $base-font-size * 1.5;
     display: block;
   }
+
   .chocolat-parent {
     text-align: left;
   }
+
+  .mobile-only {
+    text-align: center;
+    font-size: 4rem;
+    margin: 3rem 0 0;
+  }
+
+  h1 {
+    font-family: 'proxima-nova-soft', 'Proxima Nova Soft', 'Arial', sans-serif;
+  }
+
 }
 
 section .main-image {
@@ -53,3 +67,4 @@ section .main-image {
 .design-work p {
   font-size: $base-font-size * 0.875;
 }
+

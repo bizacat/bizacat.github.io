@@ -1,8 +1,10 @@
 .case-study {
+
   .hero {
     color: $brand-color;
     text-align: center;
   }
+
   .content-wrapper {
     max-width: 80em;
     a h2 {
@@ -16,7 +18,7 @@
       line-height: 1.2;
     }
     img {
-      margin: $spacing-unit auto;
+      margin: $spacing-unit * 0.5 auto $spacing-unit;
       display: block;
       text-align: center;
       width: 100%;
@@ -62,10 +64,8 @@ section.color {
 
 .case-study .description {
   padding-top: 2rem;
-  h1 {
-    font-family: 'proxima-nova-soft', 'Proxima Nova Soft', 'Arial', sans-serif;
-  }
 }
+
 
 //.case-study {
 //  &.routing {
