@@ -39,6 +39,10 @@
     background-size: 100%;
     min-height: 500px;
     color: #414042;
+    @include media-query($on-palm) {
+      background-size: auto;
+      background-position: center;
+    }
   }
 }
 
