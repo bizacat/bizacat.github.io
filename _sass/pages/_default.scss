@@ -14,7 +14,7 @@
     text-align: left;
   }
 
-  .mobile-only {
+  .page-title {
     text-align: center;
     font-size: 4rem;
     margin: 3rem 0 0;
@@ -66,5 +66,15 @@ section .main-image {
 
 .design-work p {
   font-size: $base-font-size * 0.875;
+}
+
+@include media-query($on-palm) {
+  .tag-cloud {
+    margin-top: 2rem;
+  }
+
+  section img {
+    margin: 0 auto 2rem;
+  }
 }
 
