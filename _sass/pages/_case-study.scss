@@ -17,12 +17,6 @@
       color: #888888;
       line-height: 1.2;
     }
-    img {
-      margin: $spacing-unit * 0.5 auto $spacing-unit;
-      display: block;
-      text-align: center;
-      width: 100%;
-    }
     ul {
       margin: 1rem 0 3rem;
       border-radius: 8px;
@@ -66,9 +60,6 @@ section.color {
   }
 }
 
-.case-study .description {
-  padding-top: 2rem;
-}
 
 
 //.case-study {

@@ -78,3 +78,16 @@ section .main-image {
   }
 }
 
+.hobbies, .case-studies {
+  .content-wrapper {
+    img {
+      margin: $spacing-unit * 0.5 auto $spacing-unit;
+      display: block;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  .description {
+    padding-top: 2rem;
+  }
+}
