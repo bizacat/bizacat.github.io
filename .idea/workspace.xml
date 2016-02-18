@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.6031746">
+              <caret line="65" column="68" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -64,11 +64,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_homepage.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_homepage.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/pages/_homepage.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33730158">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.458333">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_fonts.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/utilities/_fonts.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.5">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -127,13 +147,11 @@
         <option value="$PROJECT_DIR$/_sass/components/_header.scss" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/case-studies/route-app.html" />
-        <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/design-work.html" />
         <option value="$PROJECT_DIR$/_sass/pages/_case-study.scss" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_sass/pages/_default.scss" />
         <option value="$PROJECT_DIR$/_sass/utilities/style.css" />
-        <option value="$PROJECT_DIR$/_sass/utilities/_fonts.scss" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/_sass/pages/_about.scss" />
         <option value="$PROJECT_DIR$/hobbies.html" />
@@ -143,6 +161,8 @@
         <option value="$PROJECT_DIR$/_sass/components/_footer.scss" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/js/helpers.js" />
+        <option value="$PROJECT_DIR$/_sass/utilities/_fonts.scss" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_sass/pages/_homepage.scss" />
       </list>
@@ -639,12 +659,12 @@
       <workItem from="1454947672578" duration="18497000" />
       <workItem from="1455223562257" duration="10946000" />
       <workItem from="1455553143062" duration="8893000" />
-      <workItem from="1455728074330" duration="5195000" />
+      <workItem from="1455728074330" duration="7957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238607000" />
+    <option name="totallyTimeSpent" value="241369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="23" width="1374" height="877" extended-state="6" />
@@ -690,13 +710,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_sass/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/vendor/_chocolat-overrides.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.375">
@@ -916,14 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85978836">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-work.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.034391534">
@@ -960,14 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/utilities/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04761905">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1068,6 +1065,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/utilities/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.5">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.458333">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/helpers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1076,18 +1089,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/_sass/pages/_homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="32" />
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/pages/_homepage.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33730158">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.6031746">
+          <caret line="65" column="68" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
           <folding />
         </state>
       </provider>
