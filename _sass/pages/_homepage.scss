@@ -1,28 +1,77 @@
-.home .hero {
-  text-align: center;
-  a {
-    &:hover {
-      color: #FFCC3A;
-      text-decoration: none;
+.home {
+  #topNav {
+    margin-bottom: 0;
+  }
+
+  .hero {
+    text-align: center;
+    padding-bottom: 6rem;
+    a {
+      &:hover {
+        color: #FFCC3A;
+        text-decoration: none;
+      }
+    }
+    .page-nav {
+      h3 {
+        font-family: 'proxima-nova-soft';
+        display: inline-block;
+        line-height: 2;
+        padding: 0 1rem;
+        margin-top: 1rem;
+      }
+    }
+    [class^="icon-"] {
+      font-family: 'icomoon';
+      font-size: 14em !important;
+      padding: 1rem;
+      border-radius: 10rem;
     }
   }
-  .page-nav span {
-    font-size: 1.2em;
+  .intro {
+    text-align: center;
+    h1 {
+      font-family: 'proxima-nova-soft';
+      margin-top: 4rem;
+    }
+    //.light {
+    //  h1, h4 {
+    //    color: rgba(#ffffff, 0.5);
+    //  }
+    //  h1 {
+    //    margin-top: 4rem;
+    //  }
+    //  h4 {
+    //    margin: 0;
+    //  }
+    //}
   }
-  [class^="icon-"] {
-    font-family: 'icomoon';
-    font-size: 16em !important;
-  }
+}
+
+#styleToggle {
+  cursor: pointer;
 }
 
 .intro {
   background: $brand-color;
-  padding: $spacing-unit * 3 5%;
+  padding: $spacing-unit 5% $spacing-unit * 2;
   *, a {
     color: #ffffff;
   }
 }
 
+.fun .hero {
+  background: url('/img/fun-bg-hero.jpg');
+  background-size: 200px 200px;
+  [class^="icon-"] {
+    background: rgba(#ffffff, 0.9);
+    color: #333333;
+  }
+  h3 {
+    color: #fff;
+    background: rgba(0,0,0,0.875);
+  }
+}
 
 .home {
   .chocolat-parent {
@@ -45,9 +94,4 @@ span.icon-photos-1:hover {
 
 span.icon-me-1:hover {
   @extend .icon-me-2;
-}
-
-a.page-anchor {
-  text-decoration: none !important;
-  color: inherit;
 }
