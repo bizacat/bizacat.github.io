@@ -1,19 +1,29 @@
 .about {
   ul {
-    margin: 2rem 0 0;
+    margin: 0;
     padding: 0;
     list-style-type: none;
     font-weight: 500;
   }
-  .experience h4 {
-    color: #a1a1a1;
-    margin: 0;
+  .experience {
+    h2 {
+      margin-top: 3rem;
+    }
+    h4 {
+      color: #a1a1a1;
+      margin: 1rem 0 0;
+    }
+    p {
+      margin: 0;
+    }
   }
   .intro {
     text-align: center;
-    margin-bottom: 4rem;
     font-size: 1.25rem;
     font-family: 'proxima-nova-soft', 'proxima-nova', arial, sans-serif;
+    ul {
+      margin-top: 2rem;
+    }
     #myName {
       font-size: 4rem;
       text-decoration: underline;
@@ -22,6 +32,15 @@
       font-size: 2rem;
       font-weight: 100;
     }
+  }
+}
+
+@include media-query($on-palm) {
+  #myName {
+    display: block;
+  }
+  ul {
+    margin-top: 0 !important;
   }
 }
 

@@ -8,13 +8,33 @@
   .hero {
     text-align: center;
     padding-bottom: 6rem;
-    a {
-      &:hover {
-        color: #FFCC3A;
-        text-decoration: none;
-      }
-    }
     .page-nav {
+
+      [class^="col-"]:hover {
+        a {
+          color: #FFCC3A;
+          text-decoration: none;
+        }
+        [class^="icon-"] {
+          border-color: #FFCC3A;
+        }
+        span.icon-logo-1 {
+          @extend .icon-logo-2;
+        }
+
+        span.icon-ux-1 {
+          @extend .icon-ux-2;
+        }
+
+        span.icon-photos-1 {
+          @extend .icon-photos-2;
+        }
+
+        span.icon-me-1 {
+          @extend .icon-me-2;
+        }
+      }
+
       h3 {
         font-family: 'proxima-nova-soft';
         display: inline-block;
@@ -28,6 +48,7 @@
       font-size: 14rem;
       padding: 1rem;
       border-radius: 20rem;
+      border: 2px dotted $brand-color;
       @include media-query($on-palm) {
         font-size: 10rem;
       }
@@ -41,6 +62,7 @@
     }
     .contact-me {
       margin-top: 2rem;
+      font-size: 1.5rem;
       display: inline-block;
       text-decoration: underline;
     }
@@ -76,6 +98,7 @@
   [class^="icon-"] {
     background: rgba(#ffffff, 0.9);
     color: #333333;
+    border-width: 0 !important;
   }
   h3 {
     color: #fff;
@@ -83,20 +106,23 @@
   }
 }
 
-.home {
-  .chocolat-parent {
-    padding: $spacing-unit;
-    background-color: #f7f7f7;
+.home-logo {
+  max-width: 180px;
+}
+
+@include media-query($on-laptop) {
+  .home .hero [class^="icon-"] {
+    font-size: 9rem;
   }
 }
 
 @include media-query($on-palm) {
   .home {
     display: table;
-    section.header {
+    .header {
       display: table-header-group;
     }
-    section.intro {
+    .intro {
       display: table-row-group;
       h1 {
         margin-top: 1rem;
@@ -105,27 +131,13 @@
         padding: $spacing-unit;
       }
     }
-    section.hero {
+    .hero {
       display: table-footer-group;
+      .page-nav {
+        [class^="icon"] {
+          margin-top: $spacing-unit;
+        }
+      }
     }
   }
-  .page-nav [class^="icon"] {
-    margin-top: $spacing-unit;
-  }
-}
-
-span.icon-logo-1:hover {
-  @extend .icon-logo-2;
-}
-
-span.icon-ux-1:hover {
-  @extend .icon-ux-2;
-}
-
-span.icon-photos-1:hover {
-  @extend .icon-photos-2;
-}
-
-span.icon-me-1:hover {
-  @extend .icon-me-2;
 }
