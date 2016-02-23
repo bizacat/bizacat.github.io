@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('../../fonts/icomoon.eot?i402gr');
-	src:url('../../fonts/icomoon.eot?i402gr#iefix') format('embedded-opentype'),
-		url('../../fonts/icomoon.ttf?i402gr') format('truetype'),
-		url('../../fonts/icomoon.woff?i402gr') format('woff'),
-		url('../../fonts/icomoon.svg?i402gr#icomoon') format('svg');
+	src:url('../../fonts/icomoon.eot?xzq97w');
+	src:url('../../fonts/icomoon.eot?xzq97w#iefix') format('embedded-opentype'),
+		url('../../fonts/icomoon.ttf?xzq97w') format('truetype'),
+		url('../../fonts/icomoon.woff?xzq97w') format('woff'),
+		url('../../fonts/icomoon.svg?xzq97w#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,6 +23,12 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-email:before {
+  content: "\e90d";
+}
+.icon-linked-in:before {
+  content: "\e90e";
+}
 .icon-tb-logo:before {
   content: "\e90c";
 }
