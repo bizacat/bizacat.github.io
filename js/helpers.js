@@ -50,7 +50,7 @@ for (i=0; i < tagList.length; i++) {
 var styleToggle = $('#styleToggle');
 
 styleToggle.click(function() {
-   $('.home').toggleClass('fun');
+   $('body').toggleClass('fun');
 });
 
 
