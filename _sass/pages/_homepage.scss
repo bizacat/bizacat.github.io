@@ -1,13 +1,15 @@
 .home {
   #topNav {
     margin-bottom: 0;
+    padding-bottom: 0;
   }
   .header .row {
     padding: $spacing-unit;
   }
   .hero {
     text-align: center;
-    padding-bottom: 6rem;
+    padding-top: 0;
+    padding-bottom: 2rem;
     .page-nav {
 
       [class^="col-"]:hover {
@@ -107,7 +109,7 @@
 }
 
 .home-logo {
-  max-width: 180px;
+  max-width: 120px;
 }
 
 @include media-query($on-laptop) {
