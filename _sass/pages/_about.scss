@@ -11,10 +11,17 @@
     }
     h4 {
       color: #a1a1a1;
-      margin: 1rem 0 0;
+      margin: 2rem 0 0;
     }
     p {
       margin: 0;
+    }
+    .section {
+      img {
+        margin-top: $spacing-unit * 2;
+        max-width: 200px;
+      }
+      padding-bottom: $spacing-unit * 2;
     }
   }
   .intro {
@@ -49,6 +56,12 @@
   }
   ul {
     margin-top: 0 !important;
+  }
+  .experience .section {
+    text-align: center;
+    img {
+      margin: 0 auto;
+    }
   }
 }
 
