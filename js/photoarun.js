@@ -86,16 +86,12 @@ $(document).ready(function() {
                     var dataAttr = $.map(calendarDay, function (element) {
                         return $(element).attr('data-date');
                     });
-                    console.log(dataAttr);
 
                     var timeStamp = [];
 
                     $(data).find('a:contains(".jpg")').each(function () {
                         timeStamp.push(this.text.slice(0, -4)).split;
                     });
-
-                    console.log(data);
-                    console.log(timeStamp);
 
                     // Loop through all of the #photoarun photos available
                     for (x in timeStamp) {
