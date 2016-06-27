@@ -29,7 +29,7 @@
     font-size: 1.25rem;
     font-family: 'proxima-nova-soft', 'proxima-nova', arial, sans-serif;
     ul {
-      margin-top: 2rem;
+      //margin-top: 2rem;
     }
     #myName {
       font-size: 4rem;
@@ -41,11 +41,11 @@
     }
   }
   .contact-row {
-    position: absolute;
-    right: 2rem;
+    text-align: center;
     span {
       font-size: 2rem;
       margin: 1rem;
+      text-decoration: none !important;
     }
   }
 }
