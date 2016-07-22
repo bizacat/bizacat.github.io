@@ -1,6 +1,35 @@
+.jump-nav {
+  position: absolute;
+  right: 5%;
+}
+
 #calendar {
   max-width: 90%;
   margin: 1rem auto;
+}
+
+.fc-toolbar h2, .fc .fc-toolbar>*>* {
+  display: inline-block;
+  float: none !important;
+}
+
+.fc-toolbar h2 {
+  margin: 0 20px;
+  width: 250px;
+}
+
+.fc .fc-toolbar button {
+  border-radius: 0;
+  background: #eee;
+  margin: 10px 5px !important;
+  height: 36px !important;
+  width: 36px;
+  box-shadow: none;
+  top: -8px;
+  &:hover {
+    background: darken(#eee, 10%);
+    cursor: pointer;
+  }
 }
 
 .fc-content-skeleton {
@@ -69,4 +98,11 @@
   &, * {
     box-sizing: border-box;
   }
+}
+
+#this-day {
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
 }

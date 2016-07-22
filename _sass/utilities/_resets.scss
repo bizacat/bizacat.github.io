@@ -27,24 +27,28 @@ body {
 }
 
 h1 {
-    font-size: $base-font-size * 3;
+    font-size: $base-font-size * 3.5;
     line-height: 1.5;
 }
 h2 {
-    font-size: $base-font-size * 2;
+    font-size: $base-font-size * 2.875;
 }
 h3 {
-    font-size: $base-font-size * 1.5;
+    font-size: $base-font-size * 2.25;
 }
 h4 {
-    font-size: $base-font-size * 1.25;
+    font-size: $base-font-size * 1.875;
 }
 h5 {
-    font-size: $base-font-size * 1.125;
+    font-size: $base-font-size * 1.5;
 }
 
 h1, h2, h3 {
     line-height: 1.2;
+}
+
+p {
+    line-height: 2.25;
 }
 
 /**
@@ -172,8 +176,6 @@ pre {
 * Wrapper
 */
 .wrapper {
-//    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 1));
-//    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 1));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit * 4;
