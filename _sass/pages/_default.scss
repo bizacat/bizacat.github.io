@@ -88,6 +88,19 @@ section .main-image {
     }
   }
   .description {
-    padding-top: 2rem;
+    padding: 2rem;
+  }
+}
+
+.case-studies {
+  section:hover .description {
+    background: rgba(255, 255, 255, 0.85);
+  }
+  .website:hover {
+    background: url('/img/hero-bg.jpg') no-repeat;
+  }
+  .route-planning-app:hover {
+    background: url('/img/travelling-salesman.jpg') no-repeat;
+    background-size: 100%;
   }
 }
